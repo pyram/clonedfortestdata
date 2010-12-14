@@ -1,0 +1,16 @@
+{% load cms_tags cache %}
+
+{% for child in children %}
+	
+	<td><img class="vsplit" src="/site_media/img/menu-main-vsplit.gif" alt="" /></td>
+	
+	{% if child.selected or child.ancestor %}
+		<td class="mm-active">{{ child.get_menu_title }}</td>
+	{% else %}
+		<td class="mm-out" onmouseout="this.className = 'mm-out'" onmouseover="this.className = 'mm-ovr';">	
+			<a href="{{ child.get_absolute_url }}" title="{{ child.get_menu_title }}">{{ child.get_menu_title }}</a>
+		</td>
+	{% endif %}
+														
+{% endfor %}
+

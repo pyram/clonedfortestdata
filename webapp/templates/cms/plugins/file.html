@@ -1,9 +1,0 @@
-{% if object.file.url %}
-
-<div class="pdf">
-	<span><a href="{{ object.file.url }}" title="{{ object.title }}" target="blank">{{ object.title }}</a>
-		{% if object.file_exists %}({{ object.file.size|filesizeformat }})</span>{% else %}(file missing!){% endif %}
-	</span>
-</div>
-
-{% endif %}

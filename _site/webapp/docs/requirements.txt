@@ -1,5 +1,0 @@
-Django==1.1.1
-PIL==1.1.7
-distribute==0.6.10
-flup==1.0.3.dev-20100525
-wsgiref==0.1.2

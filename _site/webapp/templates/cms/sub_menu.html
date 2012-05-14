@@ -1,0 +1,78 @@
+{% load cms_tags cache %}
+
+{% for child in children %}
+	{% if child.selected or child.ancestor %}
+
+		<div id="nav2-title">
+			<div style="text-align: left;"></div>
+				<table border="0" cellpadding="0" cellspacing="0" align="center" width="148" summary="For positioning.">
+					<tbody>
+						<tr>
+							<td id="nav2-title-text">{{ child.get_menu_title }}</td>
+							<td><img src="/site_media/img/_.gif" width="1" height="40" alt="" border="0" /></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			
+			
+			<div id="nav2-items">
+		
+		{% if child.selected %}
+				<table border="0" cellpadding="0" cellspacing="0" align="center" width="148"  summary="For positioning.">
+					<tbody>
+						<tr>
+							<td class="nav2-items-text-selected">{{ child.get_menu_title }}</td>
+						</tr>
+					</tbody>
+				</table>
+		{% else %}
+				<table border="0" cellpadding="0" cellspacing="0" align="center" width="148"  summary="For positioning.">
+					<tbody>
+						<tr>
+							<td class="nav2-items-text" onmouseover="this.className = 'nav2-items-text-over';" onmouseout="this.className = 'nav2-items-text'" >
+								<a href="{{ child.get_absolute_url }}" title="{{ child.get_menu_title }}" target="_top">{{ child.get_menu_title }}</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+
+		{% endif %}
+
+
+		{% for subchild in child.children.all %}
+			{% ifequal subchild.get_menu_title request.current_page.get_page_title %}
+				<table border="0" cellpadding="0" cellspacing="0" align="center" width="148"  summary="For positioning.">
+					<tbody>
+						<tr>
+							<td class="nav2-items-text-selected">{{ subchild.get_menu_title }}</td>
+						</tr>
+					</tbody>
+				</table>
+			{% else %}
+				{% if subchild.ancestor %}
+				<table border="0" cellpadding="0" cellspacing="0" align="center" width="148"  summary="For positioning.">
+					<tbody>
+						<tr>
+							<td class="nav2-items-text-selected">{{ subchild.get_menu_title }}</td>
+						</tr>
+					</tbody>
+				</table>				
+				{% else %}
+				<table border="0" cellpadding="0" cellspacing="0" align="center" width="148"  summary="For positioning.">
+					<tbody>
+						<tr>
+							<td class="nav2-items-text" onmouseover="this.className = 'nav2-items-text-over';" onmouseout="this.className = 'nav2-items-text'" >
+								<a href="{{ subchild.get_absolute_url }}" title="{{ subchild.get_menu_title }}" target="_top">{{ subchild.get_menu_title }}</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				{% endif %}
+			{% endifequal %}
+		{% endfor %}
+		
+		</div>
+	{% endif %}
+{% endfor %}
+

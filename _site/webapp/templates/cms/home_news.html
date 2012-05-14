@@ -1,0 +1,13 @@
+{% load cms_tags cache %}
+
+{% for child in children %}
+	{% for subchild in child.children.all %}
+		{% ifequal subchild.reverse_id "news" %}
+			{% for news in subchild.children.all|slice:":4" %}
+				<span class="news-item">{{ news.creation_date|date:"Y/m/d" }}</span><br /><a href="{{ news.get_absolute_url }}">{{ news.get_title }}</a>
+				<div class="news-vspacer"><img src="/site_media/img/_.gif" alt="" /></div>
+			{% endfor %}
+		{% endifequal %}
+	{% endfor %}
+{% endfor %}
+

@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block content %}													
+		<td valign="top">
+			<div>
+				<div id="home-banner">
+					<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="686" height="418"
+    					codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab">
+    					<param name="movie" value="/site_media/flash/nb_hm_flsh_v4.2.swf" />
+    					<param name="quality" value="high" />
+    					<param name="bgcolor" value="#d6d6d6" />
+    					<embed src="/site_media/flash/nb_hm_flsh_v4.2.swf" quality="high" bgcolor="#d6d6d6" 
+    						width="686" height="418" name="home" align="middle" valign="center"
+    						play="true"
+    						loop="false"
+    						quality="high"
+    						allowScriptAccess="sameDomain"
+    						type="application/x-shockwave-flash"
+    						pluginspage="http://www.macromedia.com/go/getflashplayer">
+    					</embed>
+    				</object>
+				</div>
+			</div>
+		</td>
+		<td>
+			<div id="quick-links-wrapper">
+				<div id="quick-links-title" style="background: url(/site_media/img/quick-links-pl.gif) no-repeat;"><img src="/site_media/img/_.gif" width="228" height="31" alt="Quick Links" /></div>
+				<div id="quick-links">
+
+					<table border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td>
+								<div class="quick-links-item item-top"><a href="{% page_id_url "career" %}"><span>KARIERA</span></a></div>
+								<div class="quick-links-item"><a href="{% page_id_url "portfolio" %}"><span>PORTFOLIO</span></a></div>
+							</td>
+							<td width="3"><img src="/site_media/img/_.gif" alt="" /></td>
+							<td>
+
+								<div class="quick-links-item item-top"><a href="{% page_id_url "about" %}"><span>O NEUBLOC</span></a></div>
+								<div class="quick-links-item"><a href="{% page_id_url "contact" %}"><span>KONTAKT</span></a></div>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="news-wrapper">
+
+				<div id="news-title" style="background: url(/site_media/img/news-title-pl.gif) no-repeat;"><img src="/site_media/img/_.gif" width="228" height="31" alt="Quick Links" /></div>
+				<div id="news" style="font-size: 11px;">
+<b>Aktualnie poszukujemy kandytat&#xf3;w na poni&#x17c;sze stanowiska:</b><br/><br/>
+				<a href="/kariera/leader-projektow-webowych-architekt/">Leader Projekt&#xf3;w Webowych (Architekt)</a><br/><br/>
+				<a href="/kariera/python-developer/">Python Developer</a><br/><br/>
+				<a href="/kariera/c-developer/">C/C++ Developer</a><br/><br/>
+				{#include "cms/home_news.html" #}
+				</div>
+			</div>
+		</td>
+	</tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td>
+
+			<div class="home-txt-tbl">
+				<div class="home-text-box"><h1><span class="red">Neubloc - </span><span class="brown">Rightsource Software Design and Development</span></h1>
+					<p>
+					Neubloc jest wiod&#261;cym dostawc&#261; us&#322;ug zwi&#261;zanych z projektowaniem, produkcj&#261; i rozwojem oprogramowania. 
+					Maj&#261;c g&#322;&#243;wn&#261; siedzib&#281; w San Diego w Kalifornii, firma &#347;wiadczy us&#322;ugi dla szerokiej grupy firm technologicznych 
+					ze Stan&#243;w Zjednoczonych, Europy i Japonii. 
+					Neubloc oferuje swoje us&#322;ugi zar&#243;wno wielkim &#347;wiatowym dostawcom nowoczesnych technologii, jak i innowacyjnym firmom, 
+					kt&#243;re dopiero rozpoczynaj&#261; swoj&#261; dzia&#322;alno&#347;&#263; w miejscach takich, jak Dolina Krzemowa, czy Boston.
+					</p>
+					<br />
+					<div class="home-txt-button"><a href="{% page_id_url "about" %}"><img src="/site_media/img/home-txt-more-pl.gif" border="0" alt="Neubloc" /></a></div>
+					<div class="more-hsplit"><img src="/site_media/img/_.gif" alt="" /></div>
+				</div>
+
+			</div>
+			<div class="home-txt-tbl-btm">
+			
+			</div>
+
+		</td>
+		<td>
+		</td>
+{% endblock %}												

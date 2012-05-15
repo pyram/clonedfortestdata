@@ -14,27 +14,39 @@
     <table width="148" cellspacing="0" cellpadding="0" border="0" align="center" summary="For positioning.">
       <tbody>
         <tr>
+          {% if page.title == 'Kariera' %}
+          <td class="nav2-items-text-selected">Kariera</td>
+          {% else %}
           <td onmouseout="this.className = 'nav2-items-text'" onmouseover="this.className = 'nav2-items-text-over';" class="nav2-items-text">
             <a target="_top" title="Kariera" href="/kariera">Kariera</a>
           </td>
+          {% endif %}
         </tr>
       </tbody>
     </table>
     <table width="148" cellspacing="0" cellpadding="0" border="0" align="center" summary="For positioning.">
       <tbody>
         <tr>
+          {% if page.title == 'Python Developer' %}
+          <td class="nav2-items-text-selected">Python Developer</td>
+          {% else %}
           <td onmouseout="this.className = 'nav2-items-text'" onmouseover="this.className = 'nav2-items-text-over';" class="nav2-items-text">
             <a target="_top" title="Python Developer" href="/kariera/python-developer.html">Python Developer</a>
           </td>
+          {% endif %}
         </tr>
       </tbody>
     </table>
     <table width="148" cellspacing="0" cellpadding="0" border="0" align="center" summary="For positioning.">
       <tbody>
         <tr>
+          {% if page.title == 'C/C++ Developer' %}
+          <td class="nav2-items-text-selected">C/C++ Developer</td>
+          {% else %}
           <td onmouseout="this.className = 'nav2-items-text'" onmouseover="this.className = 'nav2-items-text-over';" class="nav2-items-text">
             <a target="_top" title="C/C++ Developer" href="/kariera/c-developer.html">C/C++ Developer</a>
           </td>
+          {% endif %}
         </tr>
       </tbody>
     </table>

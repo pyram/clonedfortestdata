@@ -42,7 +42,7 @@ table.form_pos input[type="text"].medium {
 #neo_box {
 	border: 4px solid #ddd;
 	padding: 1px;
-	background: #666 url(/site_media/img/neo_box.png) no-repeat 1px 1px;
+	background: #666 url(../img/neo_box.png) no-repeat 1px 1px;
 }
 #neo_box div {
 	width: 192px;
@@ -74,6 +74,6 @@ div.hr {
 	padding: 5px 5px 5px 20px;
 }
 .form_group {
-	background: url(/site_media/img/bg_form_group.png) repeat-x 0 50%;
+	background: url(../img/bg_form_group.png) repeat-x 0 50%;
 	height: 50px;
 }

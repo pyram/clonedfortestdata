@@ -5,8 +5,8 @@
  * http://heubloc.com/
  */
 
-@import url(/site_media/css/neo.css);
-@import url(/site_media/css/dimensions.css);
+@import url(neo.css);
+@import url(dimensions.css);
 
 body {
 	margin: 0px;
@@ -83,11 +83,11 @@ p {
 }
 #menu-top-left {
 	width: 10px;
-	background: url(/site_media/img/menu-top-left.gif) right no-repeat;
+	background: url(../img/menu-top-left.gif) right no-repeat;
 }
 #menu-top-right {
 	width: 10px;
-	background: url(/site_media/img/menu-top-right.gif) left no-repeat;
+	background: url(../img/menu-top-right.gif) left no-repeat;
 }
 #logo-tagline img {
 	border: 0px;
@@ -99,7 +99,7 @@ p {
 
 /* --- Main menu (gray) --- */
 #menu-main {
-	background: url(/site_media/img/bg-menu-main.gif) repeat-x;
+	background: url(../img/bg-menu-main.gif) repeat-x;
 	font-size: 12px;
 	font-family: Tahoma, Arial, non-serif;
 }
@@ -131,17 +131,17 @@ p {
 	vertical-align: middle;
 }
 #menu-main-left {
-	background: url(/site_media/img/menu-main-left.gif) no-repeat;
+	background: url(../img/menu-main-left.gif) no-repeat;
 }
 #menu-main-right {
-	background: url(/site_media/img/menu-main-right.gif) no-repeat;
+	background: url(../img/menu-main-right.gif) no-repeat;
 }
 
 
 /* --- Middle section --- */
 #middle-wrapper {
 	background-color: #ffffff;
-	background-image: url(/site_media/img/middle-wrapper-main.gif);
+	background-image: url(../img/middle-wrapper-main.gif);
 	background-repeat: repeat-x;
 	background-position: top;
 }
@@ -184,7 +184,7 @@ p {
 #nav2-title-text {
 	padding: 6px 2px 5px 7px;
 	text-transform: uppercase;
-	background: url(/site_media/img/nav2-title-bg.gif) top repeat-x;
+	background: url(../img/nav2-title-bg.gif) top repeat-x;
 }
 #nav2-items {
 	width: 148px;
@@ -198,7 +198,7 @@ p {
 	font-weight: bold;
 	border-top: 1px solid #c7c7c7;
 	border-bottom: 1px solid #ececec;
-	background: url(/site_media/img/nav2-items-bg.gif) top repeat-x;
+	background: url(../img/nav2-items-bg.gif) top repeat-x;
 	background-color: #ececec;
 }
 .nav2-items-text a:link, .nav2-items-text a:visited, .nav2-items-text a:active {
@@ -213,7 +213,7 @@ p {
 .nav2-items-text-selected {
 	padding: 5px 2px 4px 8px;
 	font-weight: bold;
-	background: url(/site_media/img/nav2-selected-bg.gif) top repeat-x;
+	background: url(../img/nav2-selected-bg.gif) top repeat-x;
 	background-color: #ad7a7a;
 	color: #ffffff;
 	cursor: default;
@@ -223,7 +223,7 @@ p {
 .nav2-items-text-over {
 	padding: 5px 2px 4px 8px;
 	font-weight: bold;
-	background: url(/site_media/img/nav2-selected-bg.gif) top repeat-x;
+	background: url(../img/nav2-selected-bg.gif) top repeat-x;
 	background-color: #ad7a7a;
 	border-top: 1px solid #c7c7c7;
 	border-bottom: 1px solid #975d5d;
@@ -244,30 +244,30 @@ p {
 }
 #middle-left {
 	width: 10px;
-	background: url(/site_media/img/middle-left.gif) right no-repeat;
+	background: url(../img/middle-left.gif) right no-repeat;
 }
 #middle-left-qualif {
 	width: 10px;
-	background: url(/site_media/img/middle-left.gif) right no-repeat;
+	background: url(../img/middle-left.gif) right no-repeat;
 }
 #middle-right {
 	width: 10px;
-	background: url(/site_media/img/middle-right.gif) left no-repeat;
+	background: url(../img/middle-right.gif) left no-repeat;
 }
 #middle-left-news {
-	background: url(/site_media/img/middle-left-news.gif) right no-repeat;
+	background: url(../img/middle-left-news.html) right no-repeat;
 }
 #middle-right-news {
-	background: url(/site_media/img/middle-right-news.gif) left no-repeat;
+	background: url(../img/middle-right-news.html) left no-repeat;
 }
 #middle-vsplit-left-news {
-	background: url(/site_media/img/middle-vsplit-left-news.gif) right no-repeat;
+	background: url(../img/middle-vsplit-left-news.html) right no-repeat;
 }
 #middle-vsplit-left-qualif {
-	background: url(/site_media/img/middle-vsplit-left-news.gif) right no-repeat;
+	background: url(../img/middle-vsplit-left-news.html) right no-repeat;
 }
 #middle-vsplit-right-news {
-	background: url(/site_media/img/middle-vsplit-right-news.gif) left no-repeat;
+	background: url(../img/middle-vsplit-right-news.html) left no-repeat;
 }
 #nav3 {
 	padding: 14px 5px 0px 5px;
@@ -277,7 +277,7 @@ p {
 	height: 115px;
 	vertical-align: middle;
 	text-align: center;
-	background: url(/site_media/img/nav3-graphic-frame.gif) no-repeat;
+	background: url(../img/nav3-graphic-frame.gif) no-repeat;
 }
 #nav3-items {
 	margin-top: 10px;
@@ -440,12 +440,12 @@ p {
 .hsplit {
 	width: 100%;
 	height: 1px;
-	background: url(/site_media/img/hsplit.gif) repeat-x;
+	background: url(../img/hsplit.gif) repeat-x;
 }
 .quote-hsplit {
 	width: 100%;
 	height: 1px;
-	background: url(/site_media/img/quote-hsplit.gif) repeat-x;
+	background: url(../img/quote-hsplit.gif) repeat-x;
 }
 .pdf-hsplit {
 	height: 11px;
@@ -508,49 +508,49 @@ p {
 	margin-top: 10px;
 }
 .ico33-brand-symbiosys {
-	background: url(/site_media/img/ico-33-brand-symbiosys.gif) left no-repeat;
+	background: url(../img/ico-33-brand-symbiosys.html) left no-repeat;
 	padding: 3px 0 5px 40px;
 	margin: 5px 0;
 }
 .ico33-environment-refresh {
-	background: url(/site_media/img/ico-33-environment-refresh.gif) left no-repeat;
+	background: url(../img/ico-33-environment-refresh.html) left no-repeat;
 	padding: 3px 0 5px 40px;
 	margin: 5px 0;
 }
 .ico33-cost-optimization {
-	background: url(/site_media/img/ico-33-cost-optimization.gif) left no-repeat;
+	background: url(../img/ico-33-cost-optimization.html) left no-repeat;
 	padding: 3px 0 5px 40px;
 	margin: 5px 0;
 }
 .ico33-experience-adaptation {
-	background: url(/site_media/img/ico-33-experience-adaptation.gif) left no-repeat;
+	background: url(../img/ico-33-experience-adaptation.html) left no-repeat;
 	padding: 3px 0 5px 40px;
 	margin: 5px 0;
 }
 .ico37-our-offer {
 	height: 40px;
-	background-image: url(../img/ico-37-our-offer.gif);
+	background-image: url(../img/ico-37-our-offer.html);
 	background-position: left center;
 	background-repeat: no-repeat;
 	padding: 0px 0px 0px 43px;
 }
 .ico37-capabilities {
 	height: 40px;
-	background-image: url(../img/ico-37-capabilities.gif);
+	background-image: url(../img/ico-37-capabilities.html);
 	background-position: left center;
 	background-repeat: no-repeat;
 	padding: 0px 0px 0px 43px;
 }
 .ico37-developement {
 	height: 40px;
-	background-image: url(../img/ico-37-developement.gif);
+	background-image: url(../img/ico-37-developement.html);
 	background-position: left center;
 	background-repeat: no-repeat;
 	padding: 0px 0px 0px 43px;
 }
 .ico37-case-studies {
 	height: 40px;
-	background-image: url(../img/ico-37-case-studies.gif);
+	background-image: url(../img/ico-37-case-studies.html);
 	background-position: left center;
 	background-repeat: no-repeat;
 	padding: 0px 0px 0px 43px;
@@ -560,7 +560,7 @@ p {
 	margin: 5px 0;
 }
 .pdf {
-	background: url(/site_media/img/download_pdf_button.png) left top no-repeat;
+	background: url(../img/download_pdf_button.png) left top no-repeat;
 	padding: 0px 0px 0px 115px;
 	margin-top: 5px;
 	margin-left: 2px;
@@ -571,7 +571,7 @@ p {
 	top: -1px;
 }
 .pdf0 {
-	background: url(/site_media/img/pdf.gif) left no-repeat;
+	background: url(../img/pdf.gif) left no-repeat;
 	padding: 10px 0 5px 25px;
 }
 ul.case_study {
@@ -581,7 +581,7 @@ ul.case_study {
 	font-size: 11px;
 }
 ul.case_study li {
-    background: url(/site_media/img/download_pdf_button.png) left top no-repeat;
+    background: url(../img/download_pdf_button.png) left top no-repeat;
 	padding: 0px 0px 1px 115px;
 	margin-left: 0px;
 	margin-top: 5px;
@@ -615,10 +615,10 @@ ul.case_study li span {
 #news-banner {
 	width: 480px;
 	height: 41px;
-	background: url(/site_media/img/news-banner.gif) no-repeat;
+	background: url(../img/news-banner.html) no-repeat;
 }
 #quick-links-wrapper {
-	background: url(/site_media/img/quick-links-bg.gif) bottom repeat-x;
+	background: url(../img/quick-links-bg.gif) bottom repeat-x;
 	border: 1px solid #bcbf91;
 	width: 228px;
 	height: 85px;
@@ -663,7 +663,7 @@ ul.case_study li span {
 	font-weight: bold;
 }
 #news-wrapper {
-	background: url(/site_media/img/news-bg.gif) bottom repeat-x;
+	background: url(../img/news-bg.gif) bottom repeat-x;
 	border: 1px solid #b0b0b0;
 	width: 228px;
 	height: 312px;
@@ -708,7 +708,7 @@ ul.case_study li span {
 	margin: 20px 0;
 }
 .news-hsplit {
-	background: #ff7c49 url(/site_media/img/bg-news-hsplit.gif) repeat-x;
+	background: #ff7c49 url(../img/bg-news-hsplit.gif) repeat-x;
 	height: 1px;
 	padding: 0;
 	margin: 0;
@@ -717,13 +717,13 @@ ul.case_study li span {
 	text-align: center;
 }
 ul.links {
-	list-style-image: url(/site_media/img/ico16_external_link.gif);
+	list-style-image: url(../img/ico16_external_link.gif);
 }
 div.error {
 	border: 1px solid #ffb699;
 	padding: 5px 10px 5px 50px;
 	margin: 10px 0;
-	background: #ff7c49 url(/site_media/img/error.gif) 10px 10px no-repeat;
+	background: #ff7c49 url(../img/error.gif) 10px 10px no-repeat;
 }
 div.error h2 {
 	border-bottom: 1px solid #ffb699;
@@ -769,7 +769,7 @@ div.error h2 {
 .msg {
 	color: #ffffff;
 	font-weight: bold;
-	background: #687c39 url(/site_media/img/bg_btns.gif);
+	background: #687c39 url(../img/bg_btns.gif);
 	padding: 10px;
 	border-left: 10px solid #666;
 }
@@ -847,10 +847,10 @@ div.error h2 {
 #newbnr-title {
 	width: 228px;
 	height: 33px;
-	background: url(/site_media/img/newbnr_equity_option_program.jpg) no-repeat 0 0;
+	background: url(../img/newbnr_equity_option_program.jpg) no-repeat 0 0;
 }
 #newbnr {
-	background: url(/site_media/img/newbnr_bg.png) repeat-x 0 0;
+	background: url(../img/newbnr_bg.png) repeat-x 0 0;
 	padding: 5px 4px 4px 10px;
 	font-size: 9pt;
 	line-height: 130%;

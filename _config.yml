@@ -1,0 +1,29 @@
+url_root: http://kulkam.github.io/new.neubloc.pl/
+
+navigation_kariera:
+- text: Kariera
+  url: ../kariera/
+- text: Senior Embedded Software Engineers
+  url: ../kariera/senior-embedded-software-engineers.html
+- text: Senior QA engineer / QA lead
+  url: ../kariera/senior-qa-engineer-qa-lead.html
+- text: Senior .NET Architect - Team Leader
+  url: ../kariera/senior-net-architect-team-leader.html
+
+navigation_kontakt:
+- text: Kontakt
+  url: ../kontakt/
+
+navigation_o:
+- text: O Neubloc
+  url: ../o-neubloc/
+- text: Historia
+  url: ../o-neubloc/historia.html
+- text: Management
+  url: ../o-neubloc/management.html
+
+navigation_portfolio:
+- text: Portfolio
+  url: ../portfolio/
+- text: Case Studies
+  url: ../portfolio/case-studies.html

@@ -3,12 +3,8 @@ url_root: http://www.neubloc.pl/
 navigation_kariera:
 - text: Kariera
   url: ../kariera/
-- text: Senior Embedded Software Engineers
-  url: ../kariera/senior-embedded-software-engineers.html
-- text: Senior QA engineer / QA lead
-  url: ../kariera/senior-qa-engineer-qa-lead.html
-- text: Senior .NET Architect - Team Leader
-  url: ../kariera/senior-net-architect-team-leader.html
+- text: C/C++ Software Development Engineer
+  url: ../kariera/c-software-development-engineers.html
 
 navigation_kontakt:
 - text: Kontakt

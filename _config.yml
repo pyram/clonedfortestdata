@@ -5,7 +5,7 @@ navigation_kariera:
   url: ../kariera/
 - text: C/C++ Software Development Engineer
   url: ../kariera/c-software-development-engineers.html
-  - text: C#/.NET Software Development Engineer
+- text: C#/.NET Software Development Engineer
   url: ../kariera/net-software-development-engineers.html
 
 navigation_kontakt:

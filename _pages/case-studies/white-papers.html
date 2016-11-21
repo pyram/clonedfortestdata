@@ -1,0 +1,22 @@
+---
+title: Oficialne Dokumenty
+permalink: /case-studies/white-papers
+category_list: ["whitepapers"]
+sidebar:
+  nav: "case-studies"
+---
+{% include base_path %}
+{% assign lst = []  %}
+ 
+ {% for cat in page.category_list %}
+<!-- <h3>{{ site.data.ui-text[site.locale][cat] | default: cat }}  </h3> -->
+ 	{% assign cat_down = cat|downcase %}
+ 	{% for pg in site.pages %}
+      {% for pc in pg.categories %}
+      {% assign pc_down = pc|downcase %}
+        {% if  pc_down == cat_down %}
+			<p style="padding-left: 30px;"><a href="{{ pg.permalink | prepend: site.baseurl }}">{{ pg.title }}</a></p>
+		 {% endif %}
+      {% endfor %}  <!-- page-category -->
+  {% endfor %}  <!-- page -->
+{% endfor %}

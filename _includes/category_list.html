@@ -1,0 +1,16 @@
+
+{% assign cat = include.cat|capitalize %}
+<h1 len="30" lang="pl"> {{ site.data.ui-text[site.locale][cat] | default: cat }} </h1>
+  {% for page in site.pages %}
+      {% for pc in page.categories %}
+        {% if pc == include.cat %}
+        <h3><b>{{ page.title }}</b></h3>
+        {{ page.excerpt }}
+        <br><a alight="right" class="btn btn-light" href="{{ page.url | prepend: site.baseurl}}">Read more</a>
+
+        {% if forloop.last == false %}
+		<hr>
+        {% endif %}
+    {% endif %}   <!-- cat-match-p -->
+      {% endfor %}  <!-- page-category -->
+  {% endfor %}  <!-- page -->

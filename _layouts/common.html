@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+{% include base_path %}
+<div class="below-nav hidden-xs"></div>
+<div class="container">
+    <div class="row">
+         {% include side_nav.html %}
+         {% include sidebar.html  %}
+        <div class="clearfix visible-sm"></div> 
+        {% if page.sidebar.nav %}
+            <div class="col-sm-12 col-md-6 col-md-pull-3 mg-bottom main-column"> 
+        {% else %}
+            <div class="col-md-9 col-md-pull-3 mg-bottom main-column"> 
+        {% endif %}
+                <div id="system-message-container"> </div>
+                {{ content }}
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="page__footer">
+        <footer> {% include footer/custom.html %} {% include footer.html %} </footer>
+    </div> 
+    {% include scripts.html %}
+</div>
+

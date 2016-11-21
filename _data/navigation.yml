@@ -1,0 +1,76 @@
+# main links links
+main:
+  - title: "Strona Główna"
+    url: /
+  - title: O Nas
+    url: /about-us/
+  - title: "Usługi"
+    url: /services/
+  - title: "Studia Przypadków"
+    url: /case-studies/
+  - title: "Wiedza Specjalistyczna"
+    url: /expertise/
+  - title: "Klienci"
+    url: /clients/
+  - title: "Blog"
+    url: /blog/
+  - title: "Kontakt"
+    url: /contact/
+
+about-us:
+  - title: O Nas
+    url: /about-us/
+  - title: "Dlaczego Neubloc"
+    url: /about-us/why-neubloc/
+  - title: "Nasza Historia"
+    url: /about-us/our-history/
+  - title: "Zarządzanie"
+    url: /about-us/management/
+  - title: "Program wyrównanych możliwości"
+    url: /about-us/equity-option-program/
+  - title: "Kariera"
+    url: /about-us/careers/
+
+expertise:
+  - title: Specjalizacja
+    url: /expertise/
+  - title: Wycena
+    url: /expertise/assessments/
+  - title: "Programowanie aplikacji"
+    url: /expertise/application-software/
+  - title: "embedded software"
+    url: /expertise/embedded-software/
+  - title: "Product Identity Design"
+    url: /expertise/product-identity-design/
+  - title: "User Experience Design"
+    url: /expertise/user-experience-design/
+  - title: "Web Site Design and Development"
+    url: /expertise/Web-site-design-and-development/
+
+case-studies:
+    - title: "Studia Przypadków"
+      url: /case-studies/
+      children:
+      - title: Osadzone
+        url: /case-studies/embedded/
+      - title: Enterprise Software/SaaS
+        url: /case-studies/enterprise-software-saas/
+    - title: "Oficjalne dokumenty"
+      url: /case-studies/white-papers/
+      children:
+      - title: Krytyczne błędy popełniane przez firmy przy outsourcingu
+        url: /critical-mistakes-companies-make-when-outsourcing
+      - title: Dotykowy interfejs użytkownika dla zanieczyszczenia instrumentacji
+        url: /touchscreen-user-interface-for-pollution-instrumentation
+
+services:
+    - title: Projektowanie produktu oprogramowania
+      url: /services/software-product-design-and-development/
+    - title: Personel powiększania
+      url: /services/staff-augmentation
+    - title: Plany RightSource
+      url: /services/rightsource-roadmaps
+    - title: Budowy, działania i transferu
+      url: /services/build-operate-and-transfer
+    - title: Wirtualne projektowanie i inżynieria
+      url: /services/virtual-design-and-engineering-department

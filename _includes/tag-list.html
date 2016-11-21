@@ -1,0 +1,19 @@
+{% include base_path %}
+
+<div class="widget no-border">
+        <p class="sidebar-title">Tags</p>
+        <div class="tagspopular">        
+  <ul class="nav nav-pills nav-stacked">
+  {% for tag in site.tags %}
+     {% assign t = tag | first %}
+    <li>    <a href="{{ base_path }}/tags/{{ t|slugify }}"> 
+    {% for n in t %}
+      {{ n}} <br>
+    {% endfor %}
+      </a>
+      </li>  
+  {% endfor %}
+
+    </ul>
+  </div>
+</div>

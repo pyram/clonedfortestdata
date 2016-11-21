@@ -1,0 +1,15 @@
+{% include base_path %}
+
+{% assign feed_url =  base_path|append:'/feed.xml' %}
+{% if site.atom_feed.path %}
+	{% assign feed_url =  site.atom_feed.path  %}
+{% endif %}
+{% assign feed_label = site.data.ui-text[site.locale].feed_label | default: "Subscribe"  %}
+{% assign contact_url =  base_path|append:'/contact' %}
+{% assign contact_label = site.data.ui-text[site.locale].contact_label | default: "Get In Touch"  %}
+<div class="widget no-border">
+    <div class="visible-xs visible-sm hidden-md hidden-lg">
+        <div class="btn-group btn-group-justified"> <a class="btn btn-lg btn-block btn-primary" href="{{ contact_url }}">{{ contact_label }}</a> <a class="btn btn-lg btn-block btn-warning" href="{{ feed_url }}"><i class="nico-connection"></i> {{ feed_label }}</a> </div>
+    </div>
+    <div class="hidden-xs hidden-sm visible-md visible-lg"> <a class="btn btn-lg btn-block btn-primary" href="{{ contact_url }}">{{ contact_label }}</a> <a class="btn btn-lg btn-block btn-warning" href="{{ feed_url }}"><i class="nico-connection"></i> {{ feed_label }}</a> </div>
+</div>

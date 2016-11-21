@@ -1,0 +1,21 @@
+---
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ site.locale | slice: 0,2 | default: "en" }}" lang="{{ site.locale | slice: 0,2 | default: "en" }}" dir="ltr" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+  <body>
+    <div id="page-wrap">
+      <header>   
+      {% include browser-upgrade.html %}
+      {% include masthead.html %}
+      </header>
+    {{ content }}
+    </div>
+  </body>
+</html>

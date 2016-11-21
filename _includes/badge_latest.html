@@ -1,0 +1,14 @@
+{% include base_path %}
+
+<div class="widget no-border">
+    <p class="sidebar-title">{{ site.data.ui-text[site.locale].recent_posts | default: "Latest Blog Posts" }}</p>
+    <ul class="latestnews link-list">
+
+    	{% for post in  site.posts limit: 4 %}
+        <li itemscope="" itemtype="https://schema.org/Article">
+            <a href="{{ post.url| prepend: base_path }}" itemprop="url"> <span itemprop="name">
+				{{ post.title }}			</span> </a>
+        </li>    	
+    	{% endfor %}
+    </ul>
+</div>

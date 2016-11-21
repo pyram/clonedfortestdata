@@ -1,0 +1,47 @@
+{% include base_path %}
+
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+{% assign post_link = base_path | append: post.url %}
+
+
+
+
+<div class="items-leading clearfix">
+    <div class="leading-0">
+        <div class="page-header">
+            <h2 itemprop="name">
+                      <a href="{{ post_link }}" itemprop="url">{{ title }}</a>
+            </h2> 
+          </div>
+        <div class="icons"> </div>
+        <dl class="article-info muted">
+            <dt class="article-info-term"> Details </dt>
+            <dd class="published"> <span class="icon-calendar"></span>
+                <time datetime="{{ post.date }}" itemprop="datePublished"> Data publikacji: {{ post.date | date_to_long_string }} </time>
+            </dd>
+        </dl>
+        <div class="pull-left item-image">
+        {% if post.image %}
+            <a href="{{ post_link }}"><img src="{{ post.image|prepend:  page.blog_image_path | prepend: base_path }}" alt="" itemprop="thumbnailUrl"></a>
+        {% endif %}
+        </div>
+        <p>
+          {% if post.excerpt | contains: site.excerpt_separator %}
+            {{ post.excerpt }}
+          {% else %}
+            {{ post.content | strip_html | truncatewords: 100  }}
+          {% endif %}
+
+        </p>
+        <dl class="article-info muted"> </dl>
+        <p class="readmore">
+            <a class="btn btn-light" href="{{ post_link }}"> <span class="icon-chevron-right"></span> {{ site.data.ui-text[site.locale].read_more | default: "Read more ..." }} </a>
+        </p>
+    </div>
+</div>

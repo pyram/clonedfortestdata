@@ -1,0 +1,35 @@
+---
+layout: default
+---
+ <!-- <div class="below-nav hidden-xs"></div> -->
+    
+    <!-- <div class="container">
+        <div class="row"> -->
+        
+        {% include side_nav.html %}
+        {% include sidebar.html %}
+<!--         <div class="clearfix visible-sm"></div>
+            <div class="col-sm-12 col-md-6 col-md-pull-3 mg-bottom main-column">
+                <div id="system-message-container">
+                </div>
+ -->            <div class="item-page">
+                {% if page.title %}
+                <div class="page-title">
+                    <h1> {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }} </h1>
+                </div>
+                {% endif %}
+                {{ content }}
+            </div>
+    <!--     </div>
+        </div>
+    </div>
+    <br/>
+
+        <div class="page__footer">
+          <footer> -->
+            {% include footer/custom.html %}
+            {% include footer.html %}
+    <!--       </footer>
+        </div>
+     -->
+            {% include scripts.html %}

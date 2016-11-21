@@ -1,0 +1,17 @@
+{% include base_path %}
+
+{% if page.sidebar %}
+    {% if page.sidebar.nav %}
+        <div class="col-sm-6 col-md-3 col-md-push-6 mg-bottom sidebar-b">
+    {% else %}
+        <div class="col-md-3 col-md-push-9 mg-bottom sidebar-b">
+    {% endif %}
+    {% if page.sidebar.type == 'blog' %}
+        {% include  sidebar_blog.html %} 
+    {% else %}
+        {% include  sidebar_default.html %} 
+
+    {% endif %}
+    </div>
+
+{% endif %}

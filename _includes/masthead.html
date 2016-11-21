@@ -1,0 +1,57 @@
+{% include base_path %}
+
+
+<div class="header-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <a href="index.html" class="logo"><img alt="Neubloc: Rightsource Software Design and Development" src="{{ base_path }}/images/logo.png" /></a>
+            </div>
+            <div class="col-sm-4">
+                <div class="search">
+                    <form action="http://www.neubloc.com/" method="post" class="top-search" role="search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search our website" name="searchword" />
+                            <span class="input-group-btn"><button class="btn btn-default" type="submit" title="Search"><i class="nico-search"></i><span class="hidden">Search</span></button>
+                            </span>
+                        </div>
+                        <input type="hidden" name="task" value="search" />
+                        <input type="hidden" name="option" value="com_search" />
+                        <input type="hidden" name="Itemid" value="101" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main-nav">
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+                    <!-- {{ page.url }} -->
+                    {% assign url_parts = page.url | remove_first: '/' | split: '/' %}
+                    {% assign main_url  = url_parts[0] | prepend: site.baseurl %}
+                    
+            <div class="collapse navbar-collapse" id="main-nav-collapse">            
+                <ul class="nav menu navbar-nav">
+                    {% for link in site.data.navigation.main %}
+                    {% if link.url contains 'http' %}
+                      {% assign domain = '' %}
+                      {% else %}
+                      {% assign domain = base_path %}
+                    {% endif %}
+                    {% assign link_url = link.url | remove: '/' | prepend: site.baseurl %}
+                    <li class="item-{{ forloop.index }} parent {% if link_url == main_url %}active{% endif %}"><a style="padding-right: 15px; padding-left: 15px;" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+                    {% endfor %}
+                                </ul>
+            </div>
+        </div>
+    </nav>
+</div>

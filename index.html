@@ -1,103 +1,106 @@
 ---
-layout: application
-menu: Home
-title: Home
+layout: single
+sidebar: false
 ---
 
- <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" summary="For positioning.">
-  <tbody>
-    <tr>
+{% include base_path %}
 
-      <td valign="top">
-        <div>
-          <div id="home-banner">
-            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="686" height="418"
-              codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab">
-              <param name="movie" value="{{ site.url_root }}site_media/flash/nb_hm_flsh_v4.2.swf" />
-              <param name="quality" value="high" />
-              <param name="bgcolor" value="#d6d6d6" />
-              <embed src="{{ site.url_root }}site_media/flash/nb_hm_flsh_v4.2.swf" quality="high" bgcolor="#d6d6d6"
-              width="686" height="418" name="home" align="middle" valign="center"
-              play="true"
-              loop="false"
-              quality="high"
-              allowScriptAccess="sameDomain"
-              type="application/x-shockwave-flash"
-              pluginspage="http://www.macromedia.com/go/getflashplayer">
-              </embed>
-            </object>
-          </div>
-        </div>
-      </td>
-      <td>
-        <div id="quick-links-wrapper">
-          <div id="quick-links-title" style="background: url({{ site.url_root }}site_media/img/quick-links-pl.gif) no-repeat;"><img src="{{ site.url_root }}site_media/img/bg.gif" width="228" height="31" alt="Quick Links"></div>
-          <div id="quick-links">
-
-            <table border="0" cellpadding="0" cellspacing="0">
-              <tbody><tr>
-                  <td>
-                    <div class="quick-links-item item-top"><a href="{{ site.url_root }}kariera/"><span>KARIERA</span></a></div>
-                    <div class="quick-links-item"><a href="{{ site.url_root }}portfolio/"><span>PORTFOLIO</span></a></div>
-                  </td>
-                  <td width="3"><img src="{{ site.url_root }}site_media/img/bg.gif" alt=""></td>
-                  <td>
-
-                    <div class="quick-links-item item-top"><a href="{{ site.url_root }}o-neubloc/"><span>O NEUBLOC</span></a></div>
-                    <div class="quick-links-item"><a href="{{ site.url_root }}kontakt/"><span>KONTAKT</span></a></div>
-                  </td>
-                </tr>
-            </tbody></table>
-          </div>
-        </div>
-        <div id="news-wrapper">
-
-          <div id="news-title" style="background: url({{ site.url_root }}site_media/img/news-title-pl.gif) no-repeat;"><img src="{{ site.url_root }}site_media/img/bg.gif" width="228" height="31" alt="Quick Links"></div>
-
-
-
-
-          <div id="news" style="font-size: 11px;">
-            <b>Aktualnie poszukujemy kandytatów na poniższe stanowiska:</b><br><br>
-            <a href="{{ site.url_root }}kariera/c-software-development-engineers.html">C/C++ Software Development Engineer</a><br><br>
-            <a href="{{ site.url_root }}kariera/net-software-development-engineers.html">C#/.NET Software Development Engineer</a><br><br>
-          </div>
-
-
-
-
-        </div>
-      </td>
-    </tr>
-</tbody></table>
-<table border="0" cellpadding="0" cellspacing="0">
-  <tbody><tr>
-      <td>
-
-        <div class="home-txt-tbl">
-          <div class="home-text-box"><h1><span class="red">Neubloc - </span><span class="brown">Rightsource Software Design and Development</span></h1>
-            <p style="text-align: justify;">
-            Neubloc jest wiodącym dostawcą usług związanych z projektowaniem, produkcją i rozwojem oprogramowania.
-            Mając główną siedzibę w San Diego w Kalifornii, firma świadczy usługi dla szerokiej grupy firm technologicznych
-            ze Stanów Zjednoczonych, Europy i Japonii.
-            Neubloc oferuje swoje usługi zarówno wielkim światowym dostawcom nowoczesnych technologii, jak i innowacyjnym firmom,
-            które dopiero rozpoczynają swoją działalność w miejscach takich, jak Dolina Krzemowa, czy Boston.
-            </p>
-            <br>
-            <div class="home-txt-button">
-              <a href="/o-neubloc/"><img src="{{ site.url_root }}site_media/img/home-txt-more-pl.gif" border="0" alt="Neubloc"></a>
+			
+	
+	
+		
+<div id="carousel-home" class="carousel slide" data-ride="carousel">
+    <div class="carousel-indicators-wrap">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-home" data-slide-to="0" class=""></li>
+            <li data-target="#carousel-home" data-slide-to="1" class=""></li>
+            <li data-target="#carousel-home" data-slide-to="2" class="active"></li>
+        </ol>
+    </div>
+    <div class="carousel-inner">
+        <div class="item"> <img src="images/home/home-slide-01.jpg" alt="" height="700">
+            <div class="carousel-caption">
+                <div class="container">
+                    <div class="cc-super-title">Software Development</div>
+                    <div class="cc-title">The right partner, the right design. The right solution.</div>
+                </div>
             </div>
-            <div class="more-hsplit"><img src="{{ site.url_root }}site_media/img/bg.gif" alt=""></div>
-          </div>
-
         </div>
-        <div class="home-txt-tbl-btm">
+        <div class="item"> <img src="images/home/home-slide-02.jpg" alt="">
+            <div class="carousel-caption">
+                <div class="container">
+                    <div class="cc-super-title">U.S. Management</div>
+                    <div class="cc-title">Worldwide development team with local accountability.</div>
+                </div>
+            </div>
         </div>
-      </td>
-      <td>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-
+        <div class="item active"> <img src="images/home/home-slide-03.jpg" alt="">
+            <div class="carousel-caption">
+                <div class="container">
+                    <div class="cc-super-title">Rightsource</div>
+                    <div class="cc-title">Best in class software development methodologies.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="line-title">
+        <h1>Featured Posts</h1></div>
+    <div class="row home-recent-posts">
+        <div class="col-sm-6 col-md-3 mg-bottom">
+            <div class="equal-heights" style="height: 394px;">
+                <div class="thumbnail"><img alt="" src="images/home/home-Why-Rightsource-to-Poland.jpg"></div>
+                <h3 class="title">Why Rightsource to Poland?</h3>
+                <h4>03/03/2014</h4>
+                <p>Jones Lang LaSalle, a famous professional services and investment management company specializing in real estate, recently reported that Poland is “the leading outsourcing destination in Europe.”</p>
+            </div> <a class="btn btn-light" href="/blog/44-why-rightsource-to-poland-quality-stability-and-effective-productivity">more</a> </div>
+        <div class="col-sm-6 col-md-3 mg-bottom">
+            <div class="equal-heights" style="height: 394px;">
+                <div class="thumbnail"><img alt="" src="images/home/home-What-Makes-A-Successful-Methodology.jpg"></div>
+                <h3 class="title">What Makes A Successful Methodology?</h3>
+                <h4>03/03/2014</h4>
+                <p>Methodologies are used to structure projects and provide a course that avoids common pitfalls.</p>
+            </div> <a class="btn btn-light" href="/blog/43-what-makes-a-successful-methodology">more</a> </div>
+        <div class="col-sm-6 col-md-3 mg-bottom">
+            <div class="equal-heights" style="height: 394px;">
+                <div class="thumbnail"><img alt="" src="images/home/home-How-to-Choose-the-Right-Outsource-Partner-Tips-and-Advice.jpg"></div>
+                <h3 class="title">How to Choose the Right Outsource Partner, Tips and Advice</h3>
+                <h4>02/28/2014</h4>
+                <p>In today's rapidly developing and cut throat market economy, it is pertinent to deliver products to the market in a timely manner. What should one look for in the right outsourcing partner?</p>
+            </div> <a class="btn btn-light" href="/blog/41-how-to-choose-the-right-outsourcing-partner-tips-and-advice">more</a> </div>
+        <div class="col-sm-6 col-md-3 mg-bottom">
+            <div class="equal-heights" style="height: 394px;">
+                <div class="thumbnail"><img alt="" src="images/home/home-State-of-Global-Outsource-Software-Development.jpg"></div>
+                <h3 class="title">State of Global Outsource Software Development</h3>
+                <h4>02/27/2014</h4>
+                <p>Outsourcing software development to third party companies brings great value to all sectors of the technology industry worldwide. </p>
+            </div> <a class="btn btn-light" href="/blog/38-state-of-global-outsource-software-development">more</a> </div>
+    </div>
+</div>
+<br>
+<div class="carousel-quotes-wrap">
+    <div class="container">
+        <div id="carousel-quotes" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item">
+                    <div class="quote">
+                        <div class="quote-inner">I selected Neubloc because they offer a complete turn-key solution for software projects- not only software development but user interface design and system architecture.</div>
+                        <div class="quote-cite">Dave Feldmeier - CEO, Gazelle Technologies, Inc.</div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="quote">
+                        <div class="quote-inner">Neubloc is culturally integrated into what is happening here in the US, our primary market.</div>
+                        <div class="quote-cite">Jim DeBello - CEO, Mitek Systems</div>
+                    </div>
+                </div>
+                <div class="item active">
+                    <div class="quote">
+                        <div class="quote-inner">Neubloc has been a great partner. Providing a daily status and being proactive, and always accountable, Neubloc exemplifies good management. They can work for me anytime.</div>
+                        <div class="quote-cite">Tim Mills - R &amp; D Director, GeoLearning, Inc.</div>
+                    </div>
+                </div>
+            </div> <a class="btn btn-light slide left" href="#carousel-quotes" data-slide="prev"><i class="nico-arrow-left"></i></a> <a class="btn btn-light slide right" href="#carousel-quotes" data-slide="next"><i class="nico-arrow-right"></i></a> </div>
+    </div>
+</div>

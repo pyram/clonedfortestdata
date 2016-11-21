@@ -1,0 +1,11 @@
+---
+
+title: Klienci
+permalink: /clients/
+---		
+
+{% for client in site.data.clients %}
+	{% cycle '<div class="row">','' %} 
+	{% include vcard_client.html %}
+	{% cycle '', '</div>' %} 
+{% endfor %}

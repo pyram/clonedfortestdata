@@ -1,0 +1,11 @@
+- name: boeing
+  caption: Boeing
+  logo: /images/boeing.png
+  logo_caption: Boeing Logo
+  info_text: The Boeing Company is an American multinational corporation that designs, manufactures and sells fixed-wing aircraft, rotorcraft, rockets and satellites.
+- name: mitek systems
+  caption: Thales Group
+  logo: /images/thales.png
+  logo_caption: Mitek Systems Logo
+  info_text: Thales Group is a major electronic systems company acting in areas such as defence, aerospace, airlines security and safety, information technology, and transportation.
+

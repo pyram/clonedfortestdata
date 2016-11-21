@@ -1,0 +1,31 @@
+{% include base_path %}
+
+
+{% assign navigation = site.data.navigation[page.sidebar.nav] %}
+  {% if page.sidebar.nav %}
+         <div class="col-sm-6 col-md-3 mg-bottom sidebar-a">
+    
+    
+            <ul class="nav menu nav-pills nav-stacked">
+                {% for m in navigation %}
+
+                	{% if m.children %}
+                		<li class="item-{{ forloop.index }} {%if page.url==m.url %}current{% endif %} active deeper parent">
+                		<a href="{{ site.baseurl }}{{ m.url }}">{{ m.title }}</a>
+                			<ul class="nav-child unstyled small">
+                			{% for n in m.children %}
+                				<li class="item-10{{ forloop.index }}">
+                					<a href="{{ site.baseurl }}{{ n.url }}">{{ n.title }}</a>
+            					</li>
+            				{% endfor %}
+        					</ul>
+    					</li>
+                	{% else %}
+
+	                    <li class="item-{{ forloop.index }} parent {%if page.url==m.url %}active{% endif %}"><a href="{{ site.baseurl }}{{ m.url }}">{{ m.title }}</a></li>
+                    {% endif %}
+	                    {% endfor %}              
+            </ul>
+          
+        </div>
+        {% endif %}

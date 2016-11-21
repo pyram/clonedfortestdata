@@ -46,7 +46,7 @@
   
 
 
-<title>Blog - Neubloc - www.neubloc.pl</title>
+<title>Optymalizacja oprogramowania urządzenia pamięci masowej - Neubloc - www.neubloc.pl</title>
   </head>
   <body>
     <div id="page-wrap">
@@ -95,7 +95,7 @@
                     <span class="icon-bar"></span>
                 </button>
             </div>
-                    <!-- /blog/index.html -->
+                    <!-- /storage-device-software-optimization -->
                     
                     
                     
@@ -142,7 +142,7 @@
                       
                     
                     
-                    <li class="item-7 parent active"><a style="padding-right: 15px; padding-left: 15px;" href="/www-neubloc-pl/blog/">Blog</a></li>
+                    <li class="item-7 parent "><a style="padding-right: 15px; padding-left: 15px;" href="/www-neubloc-pl/blog/">Blog</a></li>
                     
                     
                       
@@ -181,8 +181,48 @@
         
   
 
-	
-	
+
+
+  
+
+<div class="client-quote">
+    <div class="quote-inner">"Our UI went from a Geek type GUI to a very professional, well thought out user interface bringing this product to par with some of the best commercial software available in the market today." </div>
+    <div class="quote-cite">Jean Dubois VP Engineering, AirSprite Technologies, Inc.</div>
+</div>
+
+
+  
+
+
+<div class="widget no-border">
+    <p class="sidebar-title">Ostatnie wpisy</p>
+    <ul class="latestnews link-list">
+
+    	
+        <li itemscope="" itemtype="https://schema.org/Article">
+            <a href="https://neubloc-poland.github.io/www-neubloc-pl/blog/37-why-rightsource-to-south-america/" itemprop="url"> <span itemprop="name">
+				Why RightSource to South America?			</span> </a>
+        </li>    	
+    	
+        <li itemscope="" itemtype="https://schema.org/Article">
+            <a href="https://neubloc-poland.github.io/www-neubloc-pl/blog/36-poland-the-new-it-hotspot/" itemprop="url"> <span itemprop="name">
+				Jest w Polsce nowym Hotspot IT?			</span> </a>
+        </li>    	
+    	
+        <li itemscope="" itemtype="https://schema.org/Article">
+            <a href="https://neubloc-poland.github.io/www-neubloc-pl/blog/34-costs-of-outsourcing-to-poland/" itemprop="url"> <span itemprop="name">
+				Costs of Outsourcing to Poland			</span> </a>
+        </li>    	
+    	
+        <li itemscope="" itemtype="https://schema.org/Article">
+            <a href="https://neubloc-poland.github.io/www-neubloc-pl/blog/35-how-and-where-to-outsource-your-development/" itemprop="url"> <span itemprop="name">
+				How and Where to Outsource your Development			</span> </a>
+        </li>    	
+    	
+    </ul>
+</div>
+
+
   
 
 
@@ -201,60 +241,22 @@
 	<a href="https://plus.google.com/102401187026086876168" title="Google+"><i class="nico-google-plus"></i></a>
 	
 </div></div>
-	
+
   
 
 
-
-
-	
-
-
-
-
-<div class="widget no-border">
-    <div class="visible-xs visible-sm hidden-md hidden-lg">
-        <div class="btn-group btn-group-justified"> <a class="btn btn-lg btn-block btn-primary" href="https://neubloc-poland.github.io/www-neubloc-pl/contact">Napisz do nas</a> <a class="btn btn-lg btn-block btn-warning" href="./rss.xml"><i class="nico-connection"></i> Subskrybuj</a> </div>
+<div class="custom">
+    <div class="widget">
+        <div class="widget-title">Equity Option Program</div>
+        <div class="widget-inner">
+            <p>Neubloc's Equity Option Program can provide access to financing for angel and early-stage enterprise...</p> <a class="btn btn-light" href="/about-us/equity-option-program">more</a> </div>
     </div>
-    <div class="hidden-xs hidden-sm visible-md visible-lg"> <a class="btn btn-lg btn-block btn-primary" href="https://neubloc-poland.github.io/www-neubloc-pl/contact">Napisz do nas</a> <a class="btn btn-lg btn-block btn-warning" href="./rss.xml"><i class="nico-connection"></i> Subskrybuj</a> </div>
 </div>
 
-            
-  
 
 
-<div class="widget no-border">
-        <p class="sidebar-title">Tags</p>
-        <div class="tagspopular">        
-  <ul class="nav nav-pills nav-stacked">
-  
-     
-    <li>    <a href="https://neubloc-poland.github.io/www-neubloc-pl/tags/the-need-for-a-broad-range-of-services-for-rightsourcing"> 
-    
-      The Need for a Broad Range of Services for RightSourcing <br>
-    
-      </a>
-      </li>  
-  
-     
-    <li>    <a href="https://neubloc-poland.github.io/www-neubloc-pl/tags/"> 
-    
-      </a>
-      </li>  
-  
-     
-    <li>    <a href="https://neubloc-poland.github.io/www-neubloc-pl/tags/embedded-systems-and-rightsourcing"> 
-    
-      Embedded Systems and RightSourcing <br>
-    
-      </a>
-      </li>  
-  
-
-    </ul>
-  </div>
-</div>
  
+
     
     </div>
 
@@ -264,411 +266,39 @@
             <div class="col-md-9 col-md-pull-3 mg-bottom main-column"> 
         
                 <div id="system-message-container"> </div>
-                <div class="blog"> 
+                
+  
+
+
+<div class="item-page"> 
 
     <div class="page-title">
-        <h1> Blog
+        <h1> Optymalizacja oprogramowania urządzenia pamięci masowej
  </h1> 
     </div> 
  
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-<div class="pagination-block">
- <div class="pull-right"> Page 1 of 3 </div>
-    <ul class="pagination">
-     
-    <li class="pagination-start"><a title="" href="https://neubloc-poland.github.io/www-neubloc-pl/blog/" class="hasTooltip pagenav" data-original-title="Start">Start</a></li>
+<h3>Business Benefits</h3>
+<ul>
+    <li>Reduced code complexity by 40%</li>
+    <li>Reduced thousands of compile warnings and errors</li>
+    <li>Created numerous software tools to improve efficiency</li>
+    <li>Redesigned to reduce memory utilization</li>
+</ul>
+<h3>Overview</h3> A large storage device company asked Neubloc to utilize our engineering team to optimize embedded software across numerous products. Our team worked with three different software groups to reduce code complexity, improve development efficiencies and reduce memory utilization. This ensured a more efficient and cost effective means to manage future development efforts.
+<h3>The Rightsource Approach</h3> Working closely with our client, we approached this engagement by assigning key team members to each software group to assess the current state software environment. We analyzed the code base to identity necessary staff augmentation as well as unique projects and overall skills to map against the product release cycle to rightsource the effort effectively. Our approach provided the flexibility and management our client needed to properly structure the long-term effort and team.
+<h3>Services and Skills</h3>
+<ul>
+    <li>C/C++ embedded engineering</li>
+    <li>ARM processor driver development</li>
+    <li> Software Build expertise</li>
+    <li>Creation of validation scripts</li>
+    <li>Doxygen integration</li>
+</ul>
  
-      <li class="pagination-prev">
-        
-        <span class="pagenav">
-        
-
-        Wstecz
-        </span>
-      </li>              
-
-    
-    
-      <li><span class="pagenav">1</span></li>
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-        
-        
-        
-          
-          
-        
-        <li><a href="https://neubloc-poland.github.io/www-neubloc-pl/blog/page2/" class="pagenav">2</a></li>
-      
-    
-
-    
-    
-
-    
-      <li><a href="https://neubloc-poland.github.io/www-neubloc-pl/blog/page3/" class="pagenav">3</a></li>
-    
-
-        
-      <li class="pagination-next">
-      
-      <a href="https://neubloc-poland.github.io/www-neubloc-pl/blog/page2/" class="hasTooltip pagenav" data-original-title="Next">
-      
-      Dalej
-      </a>
-      </li>
-          
-      <li class="pagination-end">
-      
-      <a href="https://neubloc-poland.github.io/www-neubloc-pl/blog/page3" class="hasTooltip pagenav" data-original-title="End">
-      
-      Koniec
-      </a>
-      </li>
-  </ul>
-</nav>
-
-
-
-  
-  
-
-
-
-
-  
-
-
-
-
-
-
-
-<div class="items-leading clearfix">
-    <div class="leading-0">
-        <div class="page-header">
-            <h2 itemprop="name">
-                      <a href="https://neubloc-poland.github.io/www-neubloc-pl/blog/37-why-rightsource-to-south-america/" itemprop="url">Why RightSource to South America?
-</a>
-            </h2> 
-          </div>
-        <div class="icons"> </div>
-        <dl class="article-info muted">
-            <dt class="article-info-term"> Details </dt>
-            <dd class="published"> <span class="icon-calendar"></span>
-                <time datetime="2014-02-27 00:00:00 +0100" itemprop="datePublished"> Data publikacji: 27 February 2014 </time>
-            </dd>
-        </dl>
-        <div class="pull-left item-image">
-        
-        </div>
-        <p>
-          
-            								<p>South America might not seem like a possibility when outsourcing software development, but with Argentina and Ecuador emerging as the next IT hotspots, Neubloc encourages companies to rethink their outsourcing destination. Neubloc also offers its development and “follow the sun” models to help companies RightSource the “right” way.
-
-
-          
-
-        </p>
-        <dl class="article-info muted"> </dl>
-        <p class="readmore">
-            <a class="btn btn-light" href="https://neubloc-poland.github.io/www-neubloc-pl/blog/37-why-rightsource-to-south-america/"> <span class="icon-chevron-right"></span> Czytaj dalej ... </a>
-        </p>
-    </div>
-</div>
-
-
-  
-  
-
-
-
-
-  
-
-
-
-
-
-
-
-<div class="items-leading clearfix">
-    <div class="leading-0">
-        <div class="page-header">
-            <h2 itemprop="name">
-                      <a href="https://neubloc-poland.github.io/www-neubloc-pl/blog/36-poland-the-new-it-hotspot/" itemprop="url">Jest w Polsce nowym Hotspot IT?
-</a>
-            </h2> 
-          </div>
-        <div class="icons"> </div>
-        <dl class="article-info muted">
-            <dt class="article-info-term"> Details </dt>
-            <dd class="published"> <span class="icon-calendar"></span>
-                <time datetime="2014-02-20 01:29:33 +0100" itemprop="datePublished"> Data publikacji: 20 February 2014 </time>
-            </dd>
-        </dl>
-        <div class="pull-left item-image">
-        
-            <a href="https://neubloc-poland.github.io/www-neubloc-pl/blog/36-poland-the-new-it-hotspot/"><img src="https://neubloc-poland.github.io/www-neubloc-pl/images/BlogImages/Is_poland_new_spot.jpg" alt="" itemprop="thumbnailUrl"></a>
-        
-        </div>
-        <p>
-          
-            								<p>India has long dominated other countries as the top destination for outsourcing Information Technology (IT), but with the rise in attrition rates and other fall outs, is there a better alternative? Some companies seem to think so and they are looking to Poland.
-
-
-          
-
-        </p>
-        <dl class="article-info muted"> </dl>
-        <p class="readmore">
-            <a class="btn btn-light" href="https://neubloc-poland.github.io/www-neubloc-pl/blog/36-poland-the-new-it-hotspot/"> <span class="icon-chevron-right"></span> Czytaj dalej ... </a>
-        </p>
-    </div>
-</div>
-
-
-  
-  
-
-
-
-
-  
-
-
-
-
-
-
-
-<div class="items-leading clearfix">
-    <div class="leading-0">
-        <div class="page-header">
-            <h2 itemprop="name">
-                      <a href="https://neubloc-poland.github.io/www-neubloc-pl/blog/34-costs-of-outsourcing-to-poland/" itemprop="url">Costs of Outsourcing to Poland
-</a>
-            </h2> 
-          </div>
-        <div class="icons"> </div>
-        <dl class="article-info muted">
-            <dt class="article-info-term"> Details </dt>
-            <dd class="published"> <span class="icon-calendar"></span>
-                <time datetime="2014-02-20 01:29:33 +0100" itemprop="datePublished"> Data publikacji: 20 February 2014 </time>
-            </dd>
-        </dl>
-        <div class="pull-left item-image">
-        
-        </div>
-        <p>
-          
-                <p>Only a decade or so ago, well-educated Poles and fresh graduates had to venture outside Poland to find jobs in the IT and software development sectors. Now, outsourcing for IT and software development is Poland’s largest employment sector. Even software giants outside the US and Western Europe, like Infosys from India, are shifting projects to Poland.
-
-
-          
-
-        </p>
-        <dl class="article-info muted"> </dl>
-        <p class="readmore">
-            <a class="btn btn-light" href="https://neubloc-poland.github.io/www-neubloc-pl/blog/34-costs-of-outsourcing-to-poland/"> <span class="icon-chevron-right"></span> Czytaj dalej ... </a>
-        </p>
-    </div>
-</div>
-
-
-  
-  
-
-
-
-
-  
-
-
-
-
-
-
-
-<div class="items-leading clearfix">
-    <div class="leading-0">
-        <div class="page-header">
-            <h2 itemprop="name">
-                      <a href="https://neubloc-poland.github.io/www-neubloc-pl/blog/35-how-and-where-to-outsource-your-development/" itemprop="url">How and Where to Outsource your Development
-</a>
-            </h2> 
-          </div>
-        <div class="icons"> </div>
-        <dl class="article-info muted">
-            <dt class="article-info-term"> Details </dt>
-            <dd class="published"> <span class="icon-calendar"></span>
-                <time datetime="2014-02-20 00:00:00 +0100" itemprop="datePublished"> Data publikacji: 20 February 2014 </time>
-            </dd>
-        </dl>
-        <div class="pull-left item-image">
-        
-        </div>
-        <p>
-          
-            								<p>For a startup, outsourcing product development is not easy. In contrast, large companies routinely establish outsource development operations because they have greater time, scale, resources and brand recognition to attract and maintain engineering talent. Even without size or leverage, outsourced product development is the only realistic option for early stage technology companies. So how do you ensure proper partner selection and good management to outsource successfully? Read on!
-
-
-          
-
-        </p>
-        <dl class="article-info muted"> </dl>
-        <p class="readmore">
-            <a class="btn btn-light" href="https://neubloc-poland.github.io/www-neubloc-pl/blog/35-how-and-where-to-outsource-your-development/"> <span class="icon-chevron-right"></span> Czytaj dalej ... </a>
-        </p>
-    </div>
-</div>
-
-
-  
-  
-
-
-
-
-  
-
-
-
-
-
-
-
-<div class="items-leading clearfix">
-    <div class="leading-0">
-        <div class="page-header">
-            <h2 itemprop="name">
-                      <a href="https://neubloc-poland.github.io/www-neubloc-pl/blog/33-costs-of-outsourcing-china-and-india/" itemprop="url">Costs of Outsourcing to China and India
-</a>
-            </h2> 
-          </div>
-        <div class="icons"> </div>
-        <dl class="article-info muted">
-            <dt class="article-info-term"> Details </dt>
-            <dd class="published"> <span class="icon-calendar"></span>
-                <time datetime="2014-02-20 00:00:00 +0100" itemprop="datePublished"> Data publikacji: 20 February 2014 </time>
-            </dd>
-        </dl>
-        <div class="pull-left item-image">
-        
-        </div>
-        <p>
-          
-                <p>For companies in the United States and Western Europe looking to outsource, India and China are no longer the only choices. Outsourcing has bolstered India’s booming IT industry and China’s unparalleled manufacturing sector throughout the years, raising the standard of living. These changes have had long term effects and have significantly changed the costs of outsourcing to these countries.
-
-
-          
-
-        </p>
-        <dl class="article-info muted"> </dl>
-        <p class="readmore">
-            <a class="btn btn-light" href="https://neubloc-poland.github.io/www-neubloc-pl/blog/33-costs-of-outsourcing-china-and-india/"> <span class="icon-chevron-right"></span> Czytaj dalej ... </a>
-        </p>
-    </div>
-</div>
-
-
-
-
-  
-
-
-
-
-
-
-
-<div class="pagination-block">
- <div class="pull-right"> Page 1 of 3 </div>
-    <ul class="pagination">
-     
-    <li class="pagination-start"><a title="" href="https://neubloc-poland.github.io/www-neubloc-pl/blog/" class="hasTooltip pagenav" data-original-title="Start">Start</a></li>
- 
-      <li class="pagination-prev">
-        
-        <span class="pagenav">
-        
-
-        Wstecz
-        </span>
-      </li>              
-
-    
-    
-      <li><span class="pagenav">1</span></li>
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-        
-        
-        
-          
-          
-        
-        <li><a href="https://neubloc-poland.github.io/www-neubloc-pl/blog/page2/" class="pagenav">2</a></li>
-      
-    
-
-    
-    
-
-    
-      <li><a href="https://neubloc-poland.github.io/www-neubloc-pl/blog/page3/" class="pagenav">3</a></li>
-    
-
-        
-      <li class="pagination-next">
-      
-      <a href="https://neubloc-poland.github.io/www-neubloc-pl/blog/page2/" class="hasTooltip pagenav" data-original-title="Next">
-      
-      Dalej
-      </a>
-      </li>
-          
-      <li class="pagination-end">
-      
-      <a href="https://neubloc-poland.github.io/www-neubloc-pl/blog/page3" class="hasTooltip pagenav" data-original-title="End">
-      
-      Koniec
-      </a>
-      </li>
-  </ul>
-</nav>
+	
  
 </div>
+
             </div>
         </div>
     </div>

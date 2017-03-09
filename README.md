@@ -1,10 +1,20 @@
 # [www.neubloc.com - Polish version](https://neubloc.github.io/www-neubloc-pl/)
 
 ---
-[to be filled with content....]
+## Environment Setup
+
+```sh
+sudo apt-get install ruby-full
+sudo gem install jekyll bundler
+bundle install
+bundle exec jekyll serve # will start local server 
+# or
+# this will generate html under ./site 
+# the site folder contents can be uploaded then to gh_pages branch and tested on github pages service
+bundle exec jekyll build 
+```
 ---
 
-## Credits
 
 ### Icons + Demo Images:
 

@@ -13,7 +13,23 @@ bundle install
 ## Repository
 
 ```sh
-git clone  git@github.com:neubloc-poland/www-neubloc-pl.git
+www$> git clone  git@github.com:neubloc-poland/www-neubloc-pl.git
+www$> cd www-neubloc-pl
+www/www-neubloc-pl$> git checkout develop 
+
+# extra setup for  gh_pages
+www/www-neubloc-pl$> cd ..
+www$> cp -r www-neubloc-pl www-neubloc-pl-site
+www$> cd www-neubloc-pl-site
+www/www-neubloc-pl-site$> git checkout gh_pages
+www$> cd ../www-neubloc-pl
+www/www-neubloc-pl$> rm -fr site
+www/www-neubloc-pl$> ln -sr ../www-neubloc-pl-site/ site
+
+# now to publish changes to io.github (after build) do
+www/www-neubloc-pl$> cd site
+www/www-neubloc-pl/site$> git add -A; git commit -au -m "site updates"; git push ; 
+www/www-neubloc-pl/site$> cd ..;
 
 ```
 

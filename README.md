@@ -7,6 +7,18 @@
 sudo apt-get install ruby-full
 sudo gem install jekyll bundler
 bundle install
+
+```
+
+## Repository
+
+```sh
+git clone  git@github.com:neubloc-poland/www-neubloc-pl.git
+
+```
+
+## Jekyll
+```sh
 bundle exec jekyll serve # will start local server 
 # or
 # this will generate html under ./site 

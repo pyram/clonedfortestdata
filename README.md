@@ -35,7 +35,7 @@ www/www-neubloc-pl/site$> cd ..;
 
 ## Jekyll
 ```sh
-bundle exec jekyll serve # will start local server 
+bundle exec jekyll serve -H 127.0.0.1 # will start local server 
 # or
 # this will generate html under ./site 
 # the site folder contents can be uploaded then to gh_pages branch and tested on github pages service

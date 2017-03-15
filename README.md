@@ -1,6 +1,7 @@
 # [www.neubloc.com - Polish version](https://neubloc.github.io/www-neubloc-pl/)
 
 ---
+(this readme is work in progress)
 ## Environment Setup
 
 ```sh

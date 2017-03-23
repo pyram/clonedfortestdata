@@ -20,8 +20,8 @@
 	<link href="component/search/indexbe1d.html?Itemid=109&amp;format=opensearch" rel="search" title="Search Neubloc" type="application/opensearchdescription+xml" />
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="http://neubloc-poland.github.io/www-neubloc-pl//www-neubloc-pl/assets/css/style.min.css" />
-	<link rel="shortcut icon" href="http://neubloc-poland.github.io/www-neubloc-pl//www-neubloc-pl/images/favicon.ico" />
+	<link rel="stylesheet" href="http://neubloc-poland.github.io/www-neubloc-pl/assets/css/style.min.css" />
+	<link rel="shortcut icon" href="http://neubloc-poland.github.io/www-neubloc-pl/images/favicon.ico" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- start custom head snippets -->
@@ -65,7 +65,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
-                <a href="index.html" class="logo"><img alt="Neubloc: Rightsource Software Design and Development" src="http://neubloc-poland.github.io/www-neubloc-pl//www-neubloc-pl/images/logo.png" /></a>
+                <a href="index.html" class="logo"><img alt="Neubloc: Rightsource Software Design and Development" src="http://neubloc-poland.github.io/www-neubloc-pl/images/logo.png" /></a>
             </div>
             <div class="col-sm-4">
                 <div class="search">

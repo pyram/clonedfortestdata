@@ -1,42 +1,13 @@
 # [www.neubloc.com - Polish version](https://neubloc.github.io/www-neubloc-pl/)
 
 ---
-(this readme is work in progress)
 ## Environment Setup
 
 ```sh
 sudo apt-get install ruby-full
 sudo gem install jekyll bundler
 bundle install
-
-```
-
-## Repository
-
-```sh
-www$> git clone  git@github.com:neubloc-poland/www-neubloc-pl.git
-www$> cd www-neubloc-pl
-www/www-neubloc-pl$> git checkout develop 
-
-# extra setup for  gh_pages
-www/www-neubloc-pl$> cd ..
-www$> cp -r www-neubloc-pl www-neubloc-pl-site
-www$> cd www-neubloc-pl-site
-www/www-neubloc-pl-site$> git checkout gh_pages
-www$> cd ../www-neubloc-pl
-www/www-neubloc-pl$> rm -fr site
-www/www-neubloc-pl$> ln -sr ../www-neubloc-pl-site/ site
-
-# now to publish changes to io.github (after build) do
-www/www-neubloc-pl$> cd site
-www/www-neubloc-pl/site$> git add -A; git commit -au -m "site updates"; git push ; 
-www/www-neubloc-pl/site$> cd ..;
-
-```
-
-## Jekyll
-```sh
-bundle exec jekyll serve -H 127.0.0.1 # will start local server 
+bundle exec jekyll serve # will start local server 
 # or
 # this will generate html under ./site 
 # the site folder contents can be uploaded then to gh_pages branch and tested on github pages service

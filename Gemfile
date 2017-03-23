@@ -10,7 +10,10 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 gem "github-pages", group: :jekyll_plugins
-
+ruby '2.1.0'
+gem 'bundler'
+gem 'jekyll'
+gem 'rack-jekyll'
 
 # If you want to use Jekyll native, uncomment the line below.
 # To upgrade, run `bundle update`.

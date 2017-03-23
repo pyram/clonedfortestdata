@@ -148,10 +148,9 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll
   jekyll-archives
   jekyll-feed
   jekyll-lunr-js-search
 
 BUNDLED WITH
-   1.13.6
+   1.14.6

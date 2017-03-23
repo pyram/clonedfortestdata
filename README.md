@@ -1,4 +1,4 @@
-# [www.neubloc.com - Polish version](https://neubloc.github.io/www-neubloc-pl/)
+# [www.neubloc.com - Polish version](https://neubloc-poland.github.io/www-neubloc-pl/)
 
 ---
 ## Environment Setup

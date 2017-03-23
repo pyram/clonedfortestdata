@@ -10,7 +10,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 gem "github-pages", group: :jekyll_plugins
-ruby '2.1.0'
+ruby '2.3.1'
 gem 'bundler'
 gem 'jekyll'
 gem 'rack-jekyll'

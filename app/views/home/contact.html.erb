@@ -1,2 +1,72 @@
-<h1>Home#contact</h1>
-<p>Find me in app/views/home/contact.html.erb</p>
+<div class="contact-form">
+	<form id="contact-form" action="http://www.neubloc.com/contact" method="post" class="form-validate">
+		<fieldset>
+			<p class="text-info">Wyślij do nas wiadomość. Wszystkie pola oznaczone gwiazdką<sup class="text-danger">*</sup> są wymagane.</p>
+			<div class="form-group">
+				<label id="jform_contact_name-lbl" for="jform_contact_name" class="hasTooltip required" title="&lt;strong&gt;Name&lt;/strong&gt;&lt;br /&gt;Your name.">Imię, Nazwisko<span class="star">&#160;*</span></label>
+				<input type="text" name="jform[contact_name]" id="jform_contact_name" value="" class="required" size="30" required aria-required="true" />
+      </div>
+			<div class="form-group">
+				<label id="jform_contact_email-lbl" for="jform_contact_email" class="hasTooltip required" title="&lt;strong&gt;Email&lt;/strong&gt;&lt;br /&gt;Email Address for contact.">Email<span class="star">&#160;*</span></label>
+				<input type="email" name="jform[contact_email]" class="validate-email required" id="jform_contact_email" value="" size="30" autocomplete="email" required aria-required="true" />
+      </div>
+			<div class="form-group">
+				<label id="jform_contact_emailmsg-lbl" for="jform_contact_emailmsg" class="hasTooltip required" title="&lt;strong&gt;Subject&lt;/strong&gt;&lt;br /&gt;Enter the subject of your message here.">Tytuł<span class="star">&#160;*</span></label>
+				<input type="text" name="jform[contact_subject]" id="jform_contact_emailmsg" value="" class="required" size="60" required aria-required="true" />
+      </div>
+			<div class="form-group">
+				<label id="jform_contact_message-lbl" for="jform_contact_message" class="hasTooltip required" title="&lt;strong&gt;Message&lt;/strong&gt;&lt;br /&gt;Enter your message here.">Wiadomość<span class="star">&#160;*</span></label>
+				<textarea name="jform[contact_message]" id="jform_contact_message" cols="50" rows="10" class="required" required aria-required="true" ></textarea>
+      </div>
+			<div class="form-group">
+				<input type="checkbox" name="jform[contact_email_copy]" id="jform_contact_email_copy" value="1" />
+        <label id="jform_contact_email_copy-lbl" for="jform_contact_email_copy" class="hasTooltip" title="&lt;strong&gt;Send copy to yourself&lt;/strong&gt;&lt;br /&gt;Sends a copy of the message to the address you have supplied.">Wyślij kopię mail-a</label>
+			</div>
+			<div class="form-actions">
+        <button class="btn btn-primary validate" type="submit">Wyślij wiadomość</button>
+				<input type="hidden" name="option" value="com_contact" />
+				<input type="hidden" name="task" value="contact.submit" />
+				<input type="hidden" name="return" value="" />
+				<input type="hidden" name="id" value="2:contact-us" />
+				<input type="hidden" name="e6629180f926d21b33a75b2111a32776" value="1" />
+      </div>
+		</fieldset>
+	</form>
+</div>
+
+<style>
+	.contact-form input[type="text"],
+	.contact-form input[type="email"],
+	.contact-form textarea {
+		display: block;
+		width: 100%;
+		padding: 5px;
+		border: 1px solid #ccc;
+	}
+</style>
+
+
+<div class="contact-miscinfo">
+	<div class="row">
+		<h4>Polska</h4>
+	<div class="col-sm-6">
+		<p><strong>Katowice</strong><br>
+			Aleja Korfantego 125A<br>
+			40-156 Katowice<br>
+			Telefon: +48 32 2010474<br>
+      Fax: +48 32 259 74 96<br>
+	</div>
+
+	<div class="col-sm-6">
+		<p><strong>Warszawa</strong><br>
+			ulica<br>
+			kod pocztowy<br>
+			Telefon: +48 22 .......<br>
+      Fax: +48 22 ......<br>
+	</div>
+
+
+
+  <div class="google-maps">
+  <iframe width="800" height="600" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJn0tphiDOFkcR-MJ1jYJlD08&key=AIzaSyDiksG10WoB2koVlhDfOwilGKpapJQxy98" allowfullscreen></iframe>
+  </div>

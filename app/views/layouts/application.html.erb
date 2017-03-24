@@ -12,21 +12,22 @@
 
         <%= render 'home/header' %>
         <div class="container bs-docs-container">
-          <div class="row">
-          <div class="col-md-9" role="main">
-          <div class="bs-docs-section">
-        </div>
-       </div>
-         <div class="col-md-3" role="complementary">
-           <nav class="bs-docs-sidebar hidden-print hidden-sm hidden-xs affix-top">
-             <ul class="nav bs-docs-sidenav">
-               <li class=""> <a href="#glyphicons">Glyphicons</a></li>
-             </nav>
-           </div>
-          </div>
-        </div>
-        <div class="container">
-            <%= yield %>
-        </div>
-    </body>
-</html>
+            <div class="row">
+                <div class="col-md-3" role="complementary">
+                    <nav class="bs-docs-sidebar hidden-print hidden-sm hidden-xs affix-top">
+                        <ul class="nav bs-docs-sidenav">
+                            <li class="">
+                                <a href="#glyphicons">Glyphicons</a>
+                            </li>
+                        </nav>
+                    </div>
+                    <div class="col-md-9" role="main">
+                      <div class="bs-docs-section"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <%= yield %>
+            </div>
+        </body>
+    </html>

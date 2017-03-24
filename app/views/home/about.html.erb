@@ -1,9 +1,18 @@
-<div class="row">
-  <div class="col-sm-6 col-md-3 mg-bottom sidebar-a">
-    <ul class="nav menu nav-pills nav-stacked">
-      <li role="presentation" class="active"><a href="#">Home</a></li>
-      <li role="presentation"><a href="#">Profile</a></li>
-      <li role="presentation"><a href="#">Messages</a></li>
-    </ul>
-  </div>
+<div class="container bs-docs-container">
+    <div class="row">
+        <div class="col-md-3" role="complementary">
+            <nav class="bs-docs-sidebar hidden-print hidden-sm hidden-xs affix-top">
+                <ul class="nav bs-docs-sidenav">
+                    <li class=""><%= link_to 'Why Neubloc', 'why_neubloc_path' %></li>
+                    <li class=""><%= link_to 'Our History', 'why_neubloc_path' %></li>
+                    <li class=""><%= link_to 'Management', 'why_neubloc_path' %></li>
+                    <li class=""><%= link_to 'Equity Option Program', 'why_neubloc_path' %></li>
+                    <li class=""><%= link_to 'Careers', 'why_neubloc_path' %></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="col-md-9" role="main">
+        <div class="bs-docs-section"></div>
+    </div>
 </div>

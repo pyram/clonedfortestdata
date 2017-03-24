@@ -11,7 +11,7 @@ title                    : "Neubloc - www.neubloc.pl"
 title_separator          : "-"
 name                     : "Neubloc Polska Sp. z o.o."
 description              : "An amazing website."
-url                      : "https://neubloc-poland.github.io/www-neubloc-pl/" # the base hostname & protocol for your site e.g. "https://neubloc.github.io"
+url                      : "https://neubloc-poland.github.io" # the base hostname & protocol for your site e.g. "https://neubloc.github.io"
 #url                      : "https://neubloc-poland.github.io" # the base hostname & protocol for your site e.g. "https://neubloc.github.io"
 baseurl                  : "/www-neubloc-pl/www-neubloc-pl" # the subpath of your site, e.g. "/blog"
 repository               : "neubloc-poland/www-neubloc-pl" # GitHub username/repo-name e.g. "neubloc/www-neubloc-pl"
@@ -19,7 +19,7 @@ teaser                   : # filename of teaser fallback teaser image placed in 
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider               : # false (default), "disqus", "facebook", "google-plus", "staticman", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:

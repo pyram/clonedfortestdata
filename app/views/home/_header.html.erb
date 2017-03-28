@@ -30,7 +30,6 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <%= active_link_to 'About', home_about_path, :wrap_tag => :li %>
-                                <%= active_link_to 'Jobs', home_jobs_path, :wrap_tag => :li %>
                                 <%= active_link_to 'Clients', home_clients_path, :wrap_tag => :li %>
                             </ul>
                         </li>
@@ -42,6 +41,8 @@
                                 <li><a href="#">Page 1-3</a></li>
                             </ul>
                         </li>
+                        <%= active_link_to 'JOBS', "https://  www.pracuj.pl/poznaj-pracodawce/neubloc-polska-sp.-z-o.o.,20074328", :wrap_tag => :li %>
+
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">CONTACT<span class="caret"></span></a>
                             <ul class="dropdown-menu">

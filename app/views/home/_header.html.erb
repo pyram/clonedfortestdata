@@ -25,7 +25,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <%= active_link_to 'Home Page', home_start_path, :wrap_tag => :li %>
+                        <%= active_link_to 'Home Page', root_path, :wrap_tag => :li, active: :exact%>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT <span class="caret"></span></a>
                             <ul class="dropdown-menu">
@@ -41,7 +41,7 @@
                                 <li><a href="#">Page 1-3</a></li>
                             </ul>
                         </li>
-                        <%= active_link_to 'JOBS', "https://  www.pracuj.pl/poznaj-pracodawce/neubloc-polska-sp.-z-o.o.,20074328", :wrap_tag => :li %>
+                        <%= active_link_to 'JOBS', "https://www.pracuj.pl/poznaj-pracodawce/neubloc-polska-sp.-z-o.o.,20074328", :wrap_tag => :li %>
 
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">CONTACT<span class="caret"></span></a>

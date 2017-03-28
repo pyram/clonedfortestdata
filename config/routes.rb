@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  root 'home#' 'start'
-  get 'home/start'
+  root 'home#start'
   get 'home/clients'
   get 'home/community'
   get 'home/contact'

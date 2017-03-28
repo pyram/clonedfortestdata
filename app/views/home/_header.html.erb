@@ -14,9 +14,10 @@
     <div class="header-nightsky">
         <nav class="navbar navbar-default">
             <div class="container">
-              <%= link_to 'NEUBLOC', root_path, :class => "navbar-brand" %>
+              <div class="navbar-header">
+              <a href="/" class="logo"><img alt="Neubloc: Rightsource Software Design and Development" src="https://media.licdn.com/mpr/mpr/shrinknp_100_100/p/3/000/02f/076/1799d18.png"></a>
                 <!-- <a class="navbar-brand" href="/" NEUBLOC</a> -->
-                <div class="navbar-header">
+
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -30,13 +31,12 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <%= active_link_to 'About', home_about_path, :wrap_tag => :li %>
-                                <%= active_link_to 'Clients', home_clients_path, :wrap_tag => :li %>
-                            </ul>
+                                <%= active_link_to 'Clients', home_clients_path, :wrap_tag => :li %></ul>
                         </li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">COMMUNITY <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                               <%= active_link_to 'Community', home_community_path, :wrap_tag => :li %>
+                                <li><%= active_link_to 'Community', home_community_path, :wrap_tag => :li %>Community</a></li>
                                 <li><a href="#">Page 1-2</a></li>
                                 <li><a href="#">Page 1-3</a></li>
                             </ul>

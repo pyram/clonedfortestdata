@@ -24,19 +24,19 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <%= active_link_to 'Home Page', root_path, :wrap_tag => :li %>
+                        <li><%= active_link_to 'Home Page', root_path, :wrap_tag => :li %></a></li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <%= active_link_to 'About', home_about_path, :wrap_tag => :li %>
-                                <%= active_link_to 'Jobs', home_jobs_path, :wrap_tag => :li %>
-                                <%= active_link_to 'Clients', home_clients_path, :wrap_tag => :li %>
+                                <li><%= active_link_to 'About', home_about_path, :wrap_tag => :li %>About</a></li>
+                                <li><%= active_link_to 'Jobs', home_jobs_path, :wrap_tag => :li %>Jobs</a></li>
+                                <li><%= active_link_to 'Clients', home_clients_path, :wrap_tag => :li %>Clients</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">COMMUNITY <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                               <%= active_link_to 'Community', home_community_path, :wrap_tag => :li %>
+                                <li><%= active_link_to 'Community', home_community_path, :wrap_tag => :li %>Community</a></li>
                                 <li><a href="#">Page 1-2</a></li>
                                 <li><a href="#">Page 1-3</a></li>
                             </ul>
@@ -98,3 +98,5 @@
             <div class="btn btn-primary">Contact us</div>
         </div>
     </div>
+
+  

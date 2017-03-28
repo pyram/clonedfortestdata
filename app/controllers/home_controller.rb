@@ -16,5 +16,8 @@ class HomeController < ApplicationController
 
   def jobs
   end
-  
+
+  def start
+  end
+
 end

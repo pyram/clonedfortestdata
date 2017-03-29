@@ -17,7 +17,6 @@
               <div class="navbar-header">
               <a href="/" class="logo"><img alt="Neubloc: Rightsource Software Design and Development" src="https://media.licdn.com/mpr/mpr/shrinknp_100_100/p/3/000/02f/076/1799d18.png"></a>
                 <!-- <a class="navbar-brand" href="/" NEUBLOC</a> -->
-
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -31,27 +30,31 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">ABOUT <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <%= active_link_to 'About', home_about_path, :wrap_tag => :li %>
-                                <%= active_link_to 'Clients', home_clients_path, :wrap_tag => :li %></ul>
-
-                        </li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">COMMUNITY <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><%= active_link_to 'Community', home_community_path, :wrap_tag => :li %>Community</a></li>
-                                <li><a href="#">Page 1-2</a></li>
-                                <li><a href="#">Page 1-3</a></li>
+                                <%= active_link_to 'Clients', home_clients_path, :wrap_tag => :li %>
+                                <%= active_link_to 'Why Neubloc', home_why_neubloc_path, :wrap_tag => :li %>
+                                <%= active_link_to 'Our History', home_our_history_path, :wrap_tag => :li %>
+                                <%= active_link_to 'Management', home_management_path, :wrap_tag => :li %>
+                                <%= active_link_to 'Equity Option', home_equity_option_path, :wrap_tag => :li %>
                             </ul>
                         </li>
+                        <!-- <li class="dropdown"> -->
+                          <li><%= active_link_to 'Community/Clients', home_community_path, :wrap_tag => :li %></a></li>
+                            <!-- <a class="dropdown-toggle" data-toggle="dropdown" href="#">COMMUNITY <span class="caret"></span></a> -->
+                            <!-- <ul class="dropdown-menu"> -->
+                                <!-- <li><%= active_link_to 'Community', home_community_path, :wrap_tag => :li %>Community</a></li> -->
+                                <!-- <li><a href="#">Page 1-2</a></li> -->
+                                <!-- <li><a href="#">Page 1-3</a></li> -->
+                            <!-- </ul> -->
+                        <!-- </li> -->
                         <%= active_link_to 'JOBS', "https://www.pracuj.pl/poznaj-pracodawce/neubloc-polska-sp.-z-o.o.,20074328", :wrap_tag => :li %>
-
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">CONTACT<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
+                        <!-- <li class="dropdown"> -->
+                            <!-- <a class="dropdown-toggle" data-toggle="dropdown" href="#">CONTACT<span class="caret"></span></a> -->
+                            <!-- <ul class="dropdown-menu"> -->
                                 <li><%= active_link_to 'Contact', home_contact_path, :wrap_tag => :li %></a></li>
-                                <li><a href="#">Page 1-2</a></li>
-                                <li><a href="#">Page 1-3</a></li>
-                            </ul>
-                        </li>
+                                <!-- <li><a href="#">Page 1-2</a></li> -->
+                                <!-- <li><a href="#">Page 1-3</a></li> -->
+                            <!-- </ul> -->
+                        <!-- </li> -->
                     </ul>
                 </div>
             </div>

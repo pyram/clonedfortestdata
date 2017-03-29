@@ -5,6 +5,12 @@ class HomeController < ApplicationController
   def about
   end
 
+  def why_neubloc
+  end
+
+  def our_history
+  end
+
   def clients
   end
 

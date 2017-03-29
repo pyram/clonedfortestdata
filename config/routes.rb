@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'home/our_history'
   get 'home/management'
   get 'home/equity_option'
+  get 'home/our_history'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

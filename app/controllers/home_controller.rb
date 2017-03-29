@@ -17,4 +17,7 @@ class HomeController < ApplicationController
   def jobs
   end
 
+  def why_neubloc
+  end
+
 end

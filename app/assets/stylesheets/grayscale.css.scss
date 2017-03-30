@@ -54,7 +54,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color:#337ab7; // #1d9b6c;
 }
 
 .light {
@@ -100,8 +100,8 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: #fd7554;
-    // color: #98c3f3;
+    //color: #fd7554;
+    color: #98c3f3;
     background-color: transparent;
 }
 
@@ -283,7 +283,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+        padding-bottom: 250px;
     }
 
     .download-section {

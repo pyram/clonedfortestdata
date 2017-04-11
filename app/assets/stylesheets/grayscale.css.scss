@@ -107,14 +107,14 @@ a:focus {
 .navbar-custom .nav li a:hover {
     outline: 0;
     //color: #fd7554;
-    color: #98c3f3;
-    background-color: transparent;
+    // color: #98c3f3; // #kolor podswietelnia menu;
+    background-color: #FD7554;
 }
 
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a:active {
     outline: 0;
-    background-color: transparent;
+    background-color: #FD7554;
 }
 
 .navbar-custom .nav li.active {

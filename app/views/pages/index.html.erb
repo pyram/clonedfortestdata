@@ -217,7 +217,13 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Oferty pracy</h2>
                 <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                <a href="https://www.pracuj.pl/poznaj-pracodawce/neubloc-polska-sp.-z-o.o.,20074328" class="btn btn-default btn-lg">Zobacz oferty pracy</a>
+              <% if @entriesArray.length == 0 %>
+                <a href="#praca" class="btn btn-default btn-lg">Aktualnie nie poszukujemy pracowników</a>
+                <!-- <a href="https://www.pracuj.pl/poznaj-pracodawce/neubloc-polska-sp.-z-o.o.,20074328" class="btn btn-default btn-lg">Zobacz oferty pracy</a> -->
+              <% else %>
+                <%= render 'scrape_reddit'  %>
+              <% end %>
+
             </div>
         </div>
     </div>

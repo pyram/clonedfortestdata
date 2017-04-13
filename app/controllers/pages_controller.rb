@@ -5,7 +5,12 @@ class PagesController < ApplicationController
 
   def scrape_reddit
     require 'open-uri'
-    doc = Nokogiri::HTML(open("https://www.pracuj.pl/praca/Neubloc;kw"))
+  # @search_term = 'Neubloc'
+  @search_term = 'Neubloc'
+  if request.parameters['st']!=NIL
+     @search_term = request.parameters['st']
+  end
+    doc = Nokogiri::HTML(open("https://www.pracuj.pl/praca/" + @search_term + ";kw"))
     entries = doc.css('.o-list>li.o-list_item')
     @entriesArray = []
      entries.each do |entry|

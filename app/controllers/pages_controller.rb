@@ -1,6 +1,9 @@
 class PagesController < ApplicationController
+  before_filter :require_pracuj_pl_jobs
+  skip_before_filter :only => [:index]
+
   def index
-     scrape_reddit
+    #  scrape_reddit
   end
 
   def scrape_reddit
@@ -19,6 +22,10 @@ class PagesController < ApplicationController
        @entriesArray << Entry.new(title, link)
      end
     #  render template: 'pages/scrape_reddit'
-    end
+  end
 
+    private
+      def require_pracuj_pl_jobs
+        scrape_reddit
+      end
 end

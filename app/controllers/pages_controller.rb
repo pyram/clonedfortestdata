@@ -3,10 +3,10 @@ class PagesController < ApplicationController
   skip_before_filter :only => [:index]
 
   def index
-    #  scrape_reddit
+    #  scrape_pracuj_pl
   end
 
-  def scrape_reddit
+  def scrape_pracuj_pl
     require 'open-uri'
   # @search_term = 'Neubloc'
   @search_term = 'Neubloc'
@@ -21,11 +21,11 @@ class PagesController < ApplicationController
        link = 'https://pracuj.pl' + entry.css('a.o-list_item_link_name')[0]['href']
        @entriesArray << Entry.new(title, link)
      end
-    #  render template: 'pages/scrape_reddit'
+    #  render template: 'pages/scrape_pracuj_pl'
   end
 
     private
       def require_pracuj_pl_jobs
-        scrape_reddit
+        scrape_pracuj_pl
       end
 end

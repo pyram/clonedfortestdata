@@ -14,12 +14,18 @@ class PagesController < ApplicationController
      @search_term = request.parameters['st']
   end
     doc = Nokogiri::HTML(open("https://www.pracuj.pl/praca/" + @search_term + ";kw"))
-    entries = doc.css('.o-list>li.o-list_item')
+    # entries = doc.xpath("//span[@itemprop='title']/..")
+    entries = doc.xpath('//li[@itemtype=\'http://schema.org/JobPosting\']')
     @entriesArray = []
-     entries.each do |entry|
-       title = entry.css('a.o-list_item_link_name')[0].text
-       link = 'https://pracuj.pl' + entry.css('a.o-list_item_link_name')[0]['href']
-       @entriesArray << Entry.new(title, link)
+    entries.each do |entry|
+        # location = ''
+        locationsArray = []
+        entry.xpath('.//a[@itemprop="addressRegion"]').each do |loc|
+          locationsArray << Entry.new(loc.text, loc['href'], [])
+        end
+        title = entry.xpath('.//*[@itemprop="title"]').text
+       link = 'https://pracuj.pl' + entry.xpath(".//a[@class='o-list_item_link_name']")[0]['href']
+       @entriesArray << Entry.new(title, link, locationsArray)
      end
     #  render template: 'pages/scrape_pracuj_pl'
   end

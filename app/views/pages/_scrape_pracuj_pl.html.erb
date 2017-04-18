@@ -2,7 +2,8 @@
 <% @entriesArray.each do |entry| %>
   <!-- <p><%=   raw entry.title  %></p>
   <p><%= entry.link %></p> -->
-<p>
+<p class="job-posting">
+  <!-- , style: 'white-space: normal;' -->
 <%= link_to entry.title, entry.link, target: :_blank, class: "btn btn-default btn-lg" %>
 <br />  <% entry.locations.each do |loc| %>
     <!-- <p><%=   raw entry.title  %></p>

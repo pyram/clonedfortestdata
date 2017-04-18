@@ -234,7 +234,10 @@ a:focus {
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
 }
-
+.job-posting .btn{
+  white-space: normal;
+  margin: 5px;
+}
 @-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);

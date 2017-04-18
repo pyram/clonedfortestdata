@@ -10,6 +10,7 @@ class PagesController < ApplicationController
     require 'open-uri'
   # @search_term = 'Neubloc'
   @search_term = 'Neubloc'
+  url_prefix = 'https://pracuj.pl'
   if request.parameters['st']!=NIL
      @search_term = request.parameters['st']
   end
@@ -21,10 +22,10 @@ class PagesController < ApplicationController
         # location = ''
         locationsArray = []
         entry.xpath('.//a[@itemprop="addressRegion"]').each do |loc|
-          locationsArray << Entry.new(loc.text, loc['href'], [])
+          locationsArray << Entry.new(loc.text, url_prefix + loc['href'], [])
         end
         title = entry.xpath('.//*[@itemprop="title"]').text
-       link = 'https://pracuj.pl' + entry.xpath(".//a[@class='o-list_item_link_name']")[0]['href']
+       link = url_prefix + entry.xpath(".//a[@class='o-list_item_link_name']")[0]['href']
        @entriesArray << Entry.new(title, link, locationsArray)
      end
     #  render template: 'pages/scrape_pracuj_pl'

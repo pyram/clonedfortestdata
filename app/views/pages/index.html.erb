@@ -1,6 +1,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
-    <div class="container">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
               <i class="fa fa-bars"></i>
@@ -44,9 +45,9 @@
     <!-- /.container -->
 </nav>
 
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<!--<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
-    <ol class="carousel-indicators">
+    <!--<ol class="carousel-indicators">
         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
@@ -69,7 +70,7 @@
     </div> -->
 
     <!-- Controls -->
-    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <!--<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
     </a>
@@ -100,13 +101,7 @@
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
             <h2>O neubloc</h2>
-            <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
-            <p>This theme features stock photos by
-                <a href="http://gratisography.com/">Gratisography</a>
-                along with a custom Google Maps skin courtesy of
-                <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-            <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+            <p>Neubloc is a primarily U.S.-based, outsource software design and development firm that employs a unique RightSource model. This model couples the best of near shore design and project management with highly educated, experienced, and proven engineering resources near and off shore. Neubloc resources can be found in our offices throughout North America, near shore operations with our Argentinean and Ecuadorian locations, and off shore operations in multiple Central and Eastern European cities. We transcend the broken promises of time and cost efficiency from previous offshore models. In addition, we understand that work shipped offshore will fail without defined processes, clear communications, and the right balance of onshore, near shore and offshore resources. Only when a stable equilibrium between all of these aspects has been achieved, can productivity and savings be delivered.</p>
         </div>
     </div>
 </section>
@@ -118,7 +113,7 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Nasze projekty</h2>
                 <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default-outline btn-lg">Visit Download Page</a>
             </div>
         </div>
     </div>
@@ -135,7 +130,7 @@
                         <div class="team-member">
                             <img src="<%= asset_path("1.jpg") %>" class="img-responsive img-circle center-block" alt="">
                             <h4>Paweł Konon</h4>
-                            <p class="text-muted">President & CEO</p>
+                            <h6 class="text-muted">President & CEO</h6>
                             <ul class="list-inline social-buttons">
                                 <li>
                                     <a href="#">
@@ -159,7 +154,7 @@
                         <div class="team-member">
                             <img src="https://static.goldenline.pl/user_photo/182/user_59062_02cc41_huge.jpg" class="img img-responsive img-circle center-block" alt="">
                             <h4>Grzegorz Szostak</h4>
-                            <p class="text-muted">CTO</p>
+                            <h6 class="text-muted">CTO</h6>
                             <ul class="list-inline social-buttons">
                                 <li>
                                     <a href="#">
@@ -216,7 +211,7 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Oferty pracy</h2>
               <% if @entriesArray.length == 0 %>
-                <a href="#praca" class="btn btn-default btn-lg">Aktualnie nie poszukujemy pracowników</a>
+                <a href="#praca" class="btn btn-lg btn-light-outline mt-3">Aktualnie nie poszukujemy pracowników</a>
                 <!-- <a href="https://www.pracuj.pl/poznaj-pracodawce/neubloc-polska-sp.-z-o.o.,20074328" class="btn btn-default btn-lg">Zobacz oferty pracy</a> -->
               <% else %>
                 <%= render 'scrape_pracuj_pl'  %>
@@ -228,42 +223,45 @@
 </section>
 
 <!-- Contact Section -->
-<section id="contact" class="container content-section text-center">
+<section id="contact" class="content-section text-center">
+  <div class="container">
     <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
+        <div class="col-lg-8 col-md-offset-2">
             <h2>Neubloc Polska</h2>
-            <h4>Aleja Korfantego 125A</h4>
-            <h4>40-156 Katowice</h4>
-            <h4>Telefon: +48 32 201 04 74</h4>
-            <h4>Fax: +48 32 259 74 96</h4>
+            <h5>Aleja Korfantego 125A</h5>
+            <h5>40-156 Katowice</h5>
+            <h5>Telefon: +48 32 201 04 74</h5>
+            <h5>Fax: +48 32 259 74 96</h5>
             <p>
                 <a href="mailto:info@neubloc.com">info@neubloc.com</a>
             </p>
             <ul class="list-inline banner-social-buttons">
                 <li>
-                    <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg">
+                    <a href="https://twitter.com/SBootstrap" class="btn btn-primary-outline btn-block">
                         <i class="fa fa-twitter fa-fw"></i>
                         <span class="network-name">Twitter</span>
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg">
+                    <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-primary-outline btn-block">
                         <i class="fa fa-github fa-fw"></i>
                         <span class="network-name">Github</span>
                     </a>
                 </li>
                 <li>
-                    <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg">
+                    <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-primary-outline btn-block">
                         <i class="fa fa-google-plus fa-fw"></i>
                         <span class="network-name">Google+</span>
                     </a>
                 </li>
             </ul>
 
-            <!-- Map Section -->
-            <div id="map"></div>
+
         </div>
     </div>
+  </div>
+    <!-- Map Section -->
+  <div id="map"></div>
 </section>
 
 <!-- Footer -->

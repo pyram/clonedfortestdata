@@ -9,8 +9,8 @@ class PagesController < ApplicationController
   def scrape_pracuj_pl
     require 'open-uri'
   # @search_term = 'Neubloc'
-  # @search_term = 'Neubloc' + ";kw"
-  @search_term = 'ma%C5%82opolskie;r,6/Getin%20Noble%20Bank%20S.A.;en'
+  @search_term = 'Neubloc' + ";kw"
+  #@search_term = 'ma%C5%82opolskie;r,6/Getin%20Noble%20Bank%20S.A.;en'
   url_prefix = 'https://pracuj.pl'
   if request.parameters['st']!=NIL
      @search_term = request.parameters['st'] + ";kw"

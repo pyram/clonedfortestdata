@@ -2,7 +2,7 @@
 <% @entriesArray.each do |entry| %>
   <!-- <p><%=   raw entry.title  %></p>
   <p><%= entry.link %></p> -->
-<p>
-<%= link_to entry.title, entry.link, target: :_blank, class: "btn btn-default btn-lg" %>
-</p>
+
+<%= link_to entry.title, entry.link, target: :_blank, class: "btn btn-default-outline btn-lg" %>
+
 <% end %>

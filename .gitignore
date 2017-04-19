@@ -6,3 +6,4 @@
 /public/*
 *.keep
 /vendor
+Gemfile.lock

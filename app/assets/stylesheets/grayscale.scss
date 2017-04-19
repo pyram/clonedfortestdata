@@ -51,11 +51,26 @@ p {
         font-size: 20px;
         line-height: 1.6;
     }
-    .logo {
-      // background: url(asset-path("logo.png")) no-repeat bottom left scroll;
-    }
-}
 
+}
+$header_width: 1200px;
+@media (min-width: $header_width - 1px){
+  .logo-sm {
+      display: none !important;
+  }
+  .logo-lg {
+      display: block !important;
+  }
+}
+@media (max-width: $header_width){
+  .logo-sm {
+      display: block !important;
+  }
+  .logo-lg {
+      display: none !important;
+  }
+
+}
 a {
     color: #DB715C;
     -webkit-transition: all .2s ease-in-out;
@@ -358,7 +373,7 @@ ul.banner-social-buttons {
     margin-top: 20;
 }
 
-@media(max-width:1199px) {
+@media(max-width: $header_width - 1px) {
     ul.banner-social-buttons {
         margin-top: 15px;
     }
@@ -373,6 +388,11 @@ ul.banner-social-buttons {
 
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
+    }
+    .logo {
+      margin-left: 15px;
+      float: left;
+      vertical-align: middle;
     }
 }
 

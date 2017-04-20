@@ -1,3 +1,28 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@media (min-width: $header_width - 1px){
+  .logo-sm {
+      display: none !important;
+  }
+  .logo-lg {
+      display: block !important;
+  }
+}
+@media (max-width: $header_width){
+  .logo-sm {
+      display: block !important;
+  }
+  .logo-lg {
+      display: none !important;
+  }
+
+}
+
+@media(min-width:768px) {
+    .logo{
+      margin-left: 15px;
+      float: left;
+      vertical-align: bottom;
+    }
+}

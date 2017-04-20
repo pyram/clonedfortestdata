@@ -169,14 +169,14 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 50px 0;
+    padding: 150px 0;
     text-align: center;
     color: #000000;
     background: url(asset-path("intro-bg.jpg")) no-repeat bottom center scroll;
     background-color: #fcfcfc;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: 100%;
+    background-size: cover;
     -o-background-size: cover;
 }
 
@@ -297,7 +297,7 @@ a:focus {
     background-color: #DEDEDE;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: 100%;
+    background-size: cover;
     -o-background-size: cover;
 }
 

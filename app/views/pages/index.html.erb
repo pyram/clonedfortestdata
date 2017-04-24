@@ -214,7 +214,7 @@
       <div class="col-lg-12 col-lg-offset-0">
         <h2>Oferty pracy</h2>
         <% if @entriesArray.length == 0 %>
-        <a href="#praca" class="btn btn-lg btn-light-outline btn-lg">Aktualnie nie poszukujemy pracowników</a>
+        <a href="#praca" class="btn btn-light-outline btn-primary disabled">Aktualnie nie poszukujemy pracowników</a>
         <!-- <a href="https://www.pracuj.pl/poznaj-pracodawce/neubloc-polska-sp.-z-o.o.,20074328" class="btn btn-default btn-lg">Zobacz oferty pracy</a> -->
       <% else %>
         <%= render 'scrape_pracuj_pl'  %>

@@ -253,7 +253,17 @@ a:focus {
 .job-posting .btn{
   white-space: normal;
   margin: 0px;
+  background-color: transparent;
+  border: 0px;
 }
+
+.job-posting .btn:hover{
+  text-decoration: none;
+  color: white;
+  background: #c54c34;
+}
+
+
 @-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);

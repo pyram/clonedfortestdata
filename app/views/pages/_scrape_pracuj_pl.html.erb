@@ -4,10 +4,11 @@
   <p><%= entry.link %></p> -->
 <class="job-posting">
   <!-- , style: 'white-space: normal;' -->
-<%= link_to entry.title, entry.link, target: :_blank, class: "btn btn-default-outline btn-lg" %>
+<%= link_to entry.title, entry.link, target: :_blank, class: "btn btn-default btn-lg btn-light-outline disabled" %>
+<h4></h4>
   <% entry.locations.each do |loc| %>
     <!-- <p><%=   raw entry.title  %></p>
     <p><%= entry.link %></p> -->
-    <%= link_to loc.title, loc.link, target: :_blank, class: "btn btn-default-outline btn-lg" %>
+    <%= link_to loc.title, loc.link, target: :_blank, class: "btn btn-light-outline btn-default-outline" %>
   <% end %>
 <% end %>

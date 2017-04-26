@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: neubloc_development
+  pool: 5
+  username: myapp
+  password: password2
+
+test: &TEST
+  adapter: postgresql
+  encoding: utf8
+  database: neubloc_test
+  pool: 5
+  username: myapp
+  password: password2
+
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: neubloc_production
+  pool: 5
+  username: myapp
+  password: password2
+
+cucumber:
+  <<: *TEST

@@ -5,5 +5,5 @@
 /test/*
 /public/*
 *.keep
-/vendor
+/vendor/*
 Gemfile.lock

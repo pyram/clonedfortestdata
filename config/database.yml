@@ -1,17 +1,23 @@
-development:
+default: &default
   adapter: postgresql
-  encoding: utf8
-  database: neubloc_development
-  pool: 5
-  username: myapp
-  password: password2
+  encoding: unicode
+  # For details on connection pooling, see rails configuration guide
+  # http://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
+development:
+  <<: *default
+  database: neubloc_development
+  username: MyApp
+  password: password2
+  host: localhost
 test: &TEST
   adapter: postgresql
-  encoding: utf8
+  encoding: unicode
   database: neubloc_test
   pool: 5
-  username: myapp
+  username: MyApp
+  port: 5432
   password: password2
 
 production:
@@ -19,8 +25,5 @@ production:
   encoding: utf8
   database: neubloc_production
   pool: 5
-  username: myapp
+  username: MyApp
   password: password2
-
-cucumber:
-  <<: *TEST

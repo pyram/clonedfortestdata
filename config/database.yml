@@ -7,23 +7,23 @@ default: &default
 
 development:
   <<: *default
-  database: neubloc_development
-  username: MyApp
+  database: neublocsite_development
+  username: neublocsite
   password: password2
   host: localhost
 test: &TEST
   adapter: postgresql
   encoding: unicode
-  database: neubloc_test
+  database: neublocsite_test
   pool: 5
-  username: MyApp
+  username: neublocsite
   port: 5432
   password: password2
 
 production:
   adapter: postgresql
   encoding: utf8
-  database: neubloc_production
+  database: neublocsite_production
   pool: 5
-  username: MyApp
+  username: neublocsite
   password: password2

@@ -1,0 +1,8 @@
+<!-- <h1>Reddit's Front Page</h1> -->
+<% @entriesArray.each do |entry| %>
+  <!-- <p><%=   raw entry.title  %></p>
+  <p><%= entry.link %></p> -->
+
+<%= link_to entry.title, entry.link, target: :_blank, class: "btn btn-light-outline btn-default-outline" %>
+
+<% end %>

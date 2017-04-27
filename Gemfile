@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
+gem "font-awesome-rails"
 
 # custom theme requirements
 gem 'therubyracer'

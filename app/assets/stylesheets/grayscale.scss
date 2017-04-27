@@ -135,14 +135,14 @@ a:focus {
 
 .navbar-custom .nav li.active {
     outline: 0;
-    background-color: rgba(253, 117, 84, 0.6);
+    background-color: #c54c34;
     // background-color: #FD7554;
     // background-color: #adeff3;
 
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(255,255,255,.3);
+  color: white;
 }
 
 .navbar-custom .nav li.active a:hover {
@@ -314,6 +314,18 @@ a:focus {
     -o-background-size: cover;
 }
 
+.work-section {
+    width: 100%;
+    padding: 100px 0;
+    color: white;
+    background: url(asset-path("downloads-bg.jpg")) no-repeat center center scroll;
+    background-color: #DEDEDE;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .contact-section {
     width: 100%;
     padding: 50px 0;
@@ -333,7 +345,14 @@ a:focus {
     }
 
     .download-section {
-        padding: 100px 0;
+        padding: 10px 0;
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+    .work-section {
+        padding: 100px;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 
     #map {
@@ -438,3 +457,5 @@ body {
 .mt-2 { margin-top: 2rem; }
 .mt-3 { margin-top: 3rem; }
 .mt-4 { margin-top: 4rem; }
+
+.m-0 { margin: 0; }

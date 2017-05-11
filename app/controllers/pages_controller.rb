@@ -52,6 +52,7 @@ def load_pracuj_pl
 
     private
       def require_database_jobs
+        scrape_pracuj_pl
         load_pracuj_pl
       end
 end

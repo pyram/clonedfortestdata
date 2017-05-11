@@ -23,7 +23,7 @@ test: &TEST
 production:
   adapter: postgresql
   encoding: utf8
-  database: neublocsite_production
+  database: d24btth76hov9q
   pool: 5
-  username: neublocsite
-  password: password2
+  username: rtblemzlunkaci
+  password: e4ae92ff2ae2d89c79185b59dcdaff283b71a222b9b1a4c424d22227a1e90d25

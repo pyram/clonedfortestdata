@@ -32,6 +32,7 @@ notes:custom
 restart
 routes
 secret
+site:scrape_pracuj
 stats
 test
 test:db

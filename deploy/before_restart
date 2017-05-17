@@ -1,0 +1,27 @@
+#!/usr/bin/env ruby
+oldrev, newrev = ARGV
+
+def run(cmd)
+  exit($?.exitstatus) unless system cmd
+end
+
+RAILS_ENV   = ENV['RAILS_ENV'] || 'production'
+
+run "bundle install --deployment --without development:test"
+
+tasks = []
+
+num_migrations = `git diff #{oldrev} #{newrev} --diff-filter=A --name-only -z db/migrate`.split("\0").size
+# run migrations if new ones have been added
+tasks << "db:migrate" if num_migrations > 0
+
+# precompile assets
+changed_assets = `git diff #{oldrev} #{newrev} --name-only -z app/assets`.split("\0")
+tasks << "assets:precompile" if changed_assets.size > 0
+
+run "bin/rails #{tasks.join(' ')}" if tasks.any?
+
+changed_schedule = `git diff #{oldrev} #{newrev} --name-only -z config/schedule.rb`.split("\0")
+if changed_schedule.size > 0
+  run "bundle exec whenever --update-crontab neubloc --set environment=#{RAILS_ENV}"
+end

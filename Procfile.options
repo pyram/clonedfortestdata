@@ -1,0 +1,3 @@
+app_name: Neubloc
+pid_root: tmp/pids
+log_path: log/procodile.log

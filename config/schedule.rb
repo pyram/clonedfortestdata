@@ -5,7 +5,7 @@
 
 set :output, output: { error: 'log/cron_error.log' }
 set :environment, 'development'
-every 2.minutes do
+every 1.hour do
   # command "/usr/bin/some_great_command"
   # runner "MyModel.some_method"
   rake 'site:scrape_pracuj'

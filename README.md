@@ -1,2 +1,2 @@
-# custom-theme-rails
-Implementing a custom bootstrap theme/template in Rails
+# Current deplyment using code in develop branch, this is the link:
+[web.neubloc.pl](http://web.neubloc.pl/) 

@@ -397,8 +397,13 @@ a:focus {
   }
 }
 
-
-
+.img-circle-margin{
+  @extend .img-circle;
+  margin-bottom: 15px;
+}
+.team-member{
+  margin-bottom: 25px;
+}
 ul.banner-social-buttons {
     margin-top: 20;
 }
